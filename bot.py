@@ -36,15 +36,20 @@ HISTORICO_FILE = "historico.json"
 # HISTÓRICO
 # ============================================================
 
+def historico_vazio():
+
+    return {
+        "banca_inicial": BANCA_INICIAL,
+        "banca_atual": BANCA_INICIAL,
+        "apostas": [],
+        "snapshots": []
+    }
+
+
 def carregar_historico():
 
     if not os.path.exists(HISTORICO_FILE):
-        return {
-            "banca_inicial": BANCA_INICIAL,
-            "banca_atual": BANCA_INICIAL,
-            "apostas": [],
-            "snapshots": []
-        }
+        return historico_vazio()
 
     try:
 
@@ -78,14 +83,14 @@ def carregar_historico():
 
         return dados
 
-    except Exception:
+    except Exception as e:
 
-        return {
-            "banca_inicial": BANCA_INICIAL,
-            "banca_atual": BANCA_INICIAL,
-            "apostas": [],
-            "snapshots": []
-        }
+        print(
+            "Erro ao carregar histórico:",
+            e
+        )
+
+        return historico_vazio()
 
 
 def guardar_historico(dados):
@@ -101,6 +106,61 @@ def guardar_historico(dados):
             f,
             ensure_ascii=False,
             indent=2
+        )
+
+
+def corrigir_banca_pendentes(historico):
+
+    """
+    Corrige apostas pendentes criadas pela versão anterior
+    do bot.
+
+    A versão anterior criava a aposta mas não retirava o stake
+    da banca_atual.
+
+    As novas apostas ficam marcadas com stake_reservada=True.
+    """
+
+    corrigidas = 0
+
+    for aposta in historico["apostas"]:
+
+        if aposta.get("estado") != "PENDENTE":
+            continue
+
+        if aposta.get("stake_reservada") is True:
+            continue
+
+        stake = float(
+            aposta.get("stake", 0)
+        )
+
+        if stake <= 0:
+            continue
+
+        historico["banca_atual"] = round(
+            float(historico["banca_atual"])
+            - stake,
+            2
+        )
+
+        aposta["stake_reservada"] = True
+
+        corrigidas += 1
+
+    if corrigidas:
+
+        print(
+            f"Banca corrigida: {corrigidas} "
+            "aposta(s) pendente(s) antiga(s)."
+        )
+
+        historico["banca_atual"] = max(
+            0,
+            round(
+                historico["banca_atual"],
+                2
+            )
         )
 
 
@@ -259,12 +319,11 @@ def obter_modelo_estimador():
 
     try:
 
-        # Procuramos a jornada mais recente disponível.
         for jornada in range(20, -1, -1):
 
             url = (
                 ESTIMADOR_URL
-                + f"md{jornada:02d}.json"
+                f"md{jornada:02d}.json"
             )
 
             resposta = requests.get(
@@ -313,31 +372,56 @@ def normalizar_nome(nome):
     substituicoes = {
         "sporting lisbon": "sporting cp",
         "sporting": "sporting cp",
+        "sporting cp": "sporting cp",
+
         "porto": "porto",
         "fc porto": "porto",
+        "fc porto ": "porto",
+
         "benfica": "benfica",
         "sl benfica": "benfica",
+
         "moreirense fc": "moreirense",
         "moreirense": "moreirense",
+
         "vitoria sc": "vitoria sc",
         "vitória sc": "vitoria sc",
         "guimaraes": "vitoria sc",
         "vitoria guimaraes": "vitoria sc",
+        "vitória guimarães": "vitoria sc",
+
         "sc braga": "sc braga",
         "braga": "sc braga",
+
         "maritimo": "maritimo",
         "cs maritimo": "maritimo",
+        "marítimo": "maritimo",
+
         "nacional": "nacional",
+
         "casa pia": "casa pia",
+        "casa pia ac": "casa pia",
+
         "gil vicente": "gil vicente",
+
         "santa clara": "santa clara",
+
         "rio ave": "rio ave",
+
         "arouca": "arouca",
+
         "estoril": "estoril",
+        "estoril praia": "estoril",
+
         "famalicao": "famalicao",
+        "famalicão": "famalicao",
+
         "estrela amadora": "estrela amadora",
+
         "alverca": "alverca",
-        "academico viseu": "academico viseu"
+
+        "academico viseu": "academico viseu",
+        "académico viseu": "academico viseu"
     }
 
     return substituicoes.get(
@@ -619,18 +703,23 @@ def calcular_stake(
         return 0
 
     if score >= 90:
+
         percentagem = 0.08
 
     elif score >= 85:
+
         percentagem = 0.065
 
     elif score >= 80:
+
         percentagem = 0.05
 
     elif score >= 75:
+
         percentagem = 0.035
 
     else:
+
         percentagem = 0.025
 
     stake = (
@@ -673,6 +762,8 @@ def analisar_jogos(
 
     candidatos = []
 
+    diagnosticos = []
+
     for jogo in dados:
 
         event_id = jogo.get(
@@ -696,6 +787,10 @@ def analisar_jogos(
 
         if not commence_time:
             continue
+
+        nome_jogo = (
+            f"{home} vs {away}"
+        )
 
         try:
 
@@ -778,9 +873,24 @@ def analisar_jogos(
                     )
 
         if not betclic:
+
+            diagnosticos.append({
+                "jogo": nome_jogo,
+                "motivo": "Betclic não disponível"
+            })
+
             continue
 
         if len(outros) < MIN_BOOKMAKERS:
+
+            diagnosticos.append({
+                "jogo": nome_jogo,
+                "motivo": (
+                    f"Poucas casas para comparar "
+                    f"({len(outros)}/{MIN_BOOKMAKERS})"
+                )
+            })
+
             continue
 
         # ----------------------------------------------------
@@ -794,19 +904,21 @@ def analisar_jogos(
         }
 
         opcoes = []
+        motivos = []
 
         for tipo, nome_selecao in selecoes.items():
 
             if nome_selecao not in betclic:
+
+                motivos.append(
+                    f"{tipo}: sem odd Betclic"
+                )
+
                 continue
 
             odd_betclic = betclic[
                 nome_selecao
             ]
-
-            # ------------------------------------------------
-            # MERCADO
-            # ------------------------------------------------
 
             odds_outros = []
 
@@ -827,6 +939,11 @@ def analisar_jogos(
             if len(
                 odds_outros
             ) < MIN_BOOKMAKERS:
+
+                motivos.append(
+                    f"{nome_selecao}: "
+                    "poucas odds comparáveis"
+                )
 
                 continue
 
@@ -854,6 +971,12 @@ def analisar_jogos(
             )
 
             if prob_modelo is None:
+
+                motivos.append(
+                    f"{nome_selecao}: "
+                    "sem probabilidade do modelo"
+                )
+
                 continue
 
             # ------------------------------------------------
@@ -866,6 +989,12 @@ def analisar_jogos(
             ) - 1
 
             if value < MIN_VALUE:
+
+                motivos.append(
+                    f"{nome_selecao}: "
+                    f"value {value * 100:+.1f}%"
+                )
+
                 continue
 
             # ------------------------------------------------
@@ -880,15 +1009,19 @@ def analisar_jogos(
             )
 
             if score < MIN_SCORE:
+
+                motivos.append(
+                    f"{nome_selecao}: "
+                    f"score {score}/100"
+                )
+
                 continue
 
             opcoes.append({
 
                 "event_id": event_id,
 
-                "jogo": (
-                    f"{home} vs {away}"
-                ),
+                "jogo": nome_jogo,
 
                 "home": home,
 
@@ -937,11 +1070,22 @@ def analisar_jogos(
                 reverse=True
             )
 
+            melhor = opcoes[0]
+
             candidatos.append(
-                opcoes[0]
+                melhor
             )
 
-    return candidatos
+        else:
+
+            if motivos:
+
+                diagnosticos.append({
+                    "jogo": nome_jogo,
+                    "motivo": motivos[0]
+                })
+
+    return candidatos, diagnosticos
 
 
 # ============================================================
@@ -1133,7 +1277,10 @@ def guardar_apostas(
                 "PENDENTE",
 
             "lucro":
-                0
+                0,
+
+            "stake_reservada":
+                True
         }
 
         historico[
@@ -1146,7 +1293,18 @@ def guardar_apostas(
             aposta
         )
 
+        # Reservar imediatamente o dinheiro
         banca -= stake
+
+    historico[
+        "banca_atual"
+    ] = max(
+        0,
+        round(
+            banca,
+            2
+        )
+    )
 
     return novas
 
@@ -1286,6 +1444,8 @@ def liquidar_apostas(
                     "lucro"
                 ] = lucro
 
+                # O stake já estava reservado.
+                # Agora devolvemos stake + lucro.
                 historico[
                     "banca_atual"
                 ] = round(
@@ -1309,13 +1469,15 @@ def liquidar_apostas(
                     "lucro"
                 ] = lucro
 
+                # O stake já tinha sido retirado
+                # quando a aposta foi criada.
+                # Portanto não retiramos novamente.
                 historico[
                     "banca_atual"
                 ] = round(
                     historico[
                         "banca_atual"
-                    ]
-                    + lucro,
+                    ],
                     2
                 )
 
@@ -1328,9 +1490,25 @@ def liquidar_apostas(
                 f"{away}"
             )
 
+            aposta[
+                "stake_reservada"
+            ] = True
+
             alteradas.append(
                 aposta
             )
+
+    historico[
+        "banca_atual"
+    ] = max(
+        0,
+        round(
+            historico[
+                "banca_atual"
+            ],
+            2
+        )
+    )
 
     return alteradas
 
@@ -1458,13 +1636,37 @@ def estatisticas(
 
 
 # ============================================================
+# FORMATAR DATA
+# ============================================================
+
+def formatar_data(data):
+
+    try:
+
+        return datetime.fromisoformat(
+            data.replace(
+                "Z",
+                "+00:00"
+            )
+        ).strftime(
+            "%d/%m %H:%M"
+        )
+
+    except Exception:
+
+        return data
+
+
+# ============================================================
 # TELEGRAM
 # ============================================================
 
 def criar_mensagem(
     novas,
     liquidadas,
-    stats
+    stats,
+    jogos_analisados,
+    diagnosticos
 ):
 
     texto = (
@@ -1479,6 +1681,10 @@ def criar_mensagem(
         "🏦 BETCLIC\n\n"
     )
 
+    # --------------------------------------------------------
+    # NOVAS OPORTUNIDADES
+    # --------------------------------------------------------
+
     if novas:
 
         texto += (
@@ -1488,24 +1694,9 @@ def criar_mensagem(
 
         for aposta in novas:
 
-            try:
-
-                data = datetime.fromisoformat(
-                    aposta[
-                        "data_jogo"
-                    ].replace(
-                        "Z",
-                        "+00:00"
-                    )
-                ).strftime(
-                    "%d/%m %H:%M"
-                )
-
-            except Exception:
-
-                data = aposta[
-                    "data_jogo"
-                ]
+            data = formatar_data(
+                aposta["data_jogo"]
+            )
 
             texto += (
                 f"⚽ {aposta['jogo']}\n"
@@ -1549,6 +1740,10 @@ def criar_mensagem(
                 f"🗓️ {data}\n\n"
             )
 
+    # --------------------------------------------------------
+    # RESULTADOS
+    # --------------------------------------------------------
+
     if liquidadas:
 
         texto += (
@@ -1578,15 +1773,65 @@ def criar_mensagem(
                 f"€{aposta['lucro']:+.2f}\n\n"
             )
 
+    # --------------------------------------------------------
+    # DIAGNÓSTICO
+    # --------------------------------------------------------
+
+    texto += (
+        "🔎 ANÁLISE DESTA EXECUÇÃO\n\n"
+    )
+
+    texto += (
+        f"📋 Jogos encontrados: "
+        f"{jogos_analisados}\n"
+    )
+
+    if diagnosticos:
+
+        texto += (
+            "❌ Principais motivos de rejeição:\n"
+        )
+
+        # Mostrar no máximo 6 jogos
+        for diagnostico in diagnosticos[:6]:
+
+            texto += (
+                f"• {diagnostico['jogo']}\n"
+            )
+
+            texto += (
+                f"  └ {diagnostico['motivo']}\n"
+            )
+
+        if len(diagnosticos) > 6:
+
+            texto += (
+                f"• ... e mais "
+                f"{len(diagnosticos) - 6}\n"
+            )
+
+        texto += "\n"
+
+    else:
+
+        texto += (
+            "ℹ️ Não houve rejeições "
+            "registadas.\n\n"
+        )
+
     if (
         not novas
         and not liquidadas
     ):
 
         texto += (
-            "🔎 Nenhuma nova "
-            "oportunidade nesta análise.\n\n"
+            "🎯 Nenhuma nova oportunidade "
+            "passou todos os filtros.\n\n"
         )
+
+    # --------------------------------------------------------
+    # BALANÇO
+    # --------------------------------------------------------
 
     texto += (
         "📊 BALANÇO VIRTUAL\n\n"
@@ -1623,15 +1868,12 @@ def criar_mensagem(
     )
 
     texto += (
-        f"💼 Banca virtual: "
+        f"💼 Banca disponível: "
         f"€{stats['banca']:.2f}\n\n"
     )
 
     texto += (
         "⚠️ MODO TESTE\n"
-    )
-
-    texto += (
         "Nenhuma aposta real foi efetuada."
     )
 
@@ -1683,6 +1925,14 @@ def main():
     historico = carregar_historico()
 
     # --------------------------------------------------------
+    # CORREÇÃO DA BANCA
+    # --------------------------------------------------------
+
+    corrigir_banca_pendentes(
+        historico
+    )
+
+    # --------------------------------------------------------
     # RESULTADOS
     # --------------------------------------------------------
 
@@ -1731,7 +1981,7 @@ def main():
         historico
     )
 
-    candidatos = analisar_jogos(
+    candidatos, diagnosticos = analisar_jogos(
         jogos,
         probabilidades_estimador,
         forcas
@@ -1757,11 +2007,22 @@ def main():
     mensagem = criar_mensagem(
         novas,
         liquidadas,
-        stats
+        stats,
+        len(jogos),
+        diagnosticos
     )
 
     enviar_telegram(
         mensagem
+    )
+
+    # --------------------------------------------------------
+    # TERMINAL
+    # --------------------------------------------------------
+
+    print(
+        "Jogos analisados:",
+        len(jogos)
     )
 
     print(
