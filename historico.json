@@ -4331,6 +4331,4302 @@
       "bookmaker": "GTbets",
       "aposta": "Draw",
       "odd": 6.88
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "FC Porto",
+      "odd": 1.12
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Moreirense FC",
+      "odd": 16.0
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Draw",
+      "odd": 6.75
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "FC Porto",
+      "odd": 1.12
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Moreirense FC",
+      "odd": 15.0
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Draw",
+      "odd": 6.4
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "PMU (FR)",
+      "aposta": "FC Porto",
+      "odd": 1.13
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Moreirense FC",
+      "odd": 16.0
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Draw",
+      "odd": 6.75
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "FC Porto",
+      "odd": 1.13
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Moreirense FC",
+      "odd": 14.0
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Draw",
+      "odd": 6.1
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "FC Porto",
+      "odd": 1.12
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Moreirense FC",
+      "odd": 16.0
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Draw",
+      "odd": 6.75
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "FC Porto",
+      "odd": 1.12
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Moreirense FC",
+      "odd": 16.0
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Draw",
+      "odd": 6.75
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Marathon Bet",
+      "aposta": "FC Porto",
+      "odd": 1.17
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Moreirense FC",
+      "odd": 17.75
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Draw",
+      "odd": 6.25
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "FC Porto",
+      "odd": 1.13
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Moreirense FC",
+      "odd": 12.0
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Draw",
+      "odd": 6.25
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "FC Porto",
+      "odd": 1.14
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Moreirense FC",
+      "odd": 12.5
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Draw",
+      "odd": 6.75
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Tipico",
+      "aposta": "FC Porto",
+      "odd": 1.14
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Tipico",
+      "aposta": "Moreirense FC",
+      "odd": 17.0
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Tipico",
+      "aposta": "Draw",
+      "odd": 7.5
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "888sport",
+      "aposta": "FC Porto",
+      "odd": 1.18
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "888sport",
+      "aposta": "Moreirense FC",
+      "odd": 17.0
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "888sport",
+      "aposta": "Draw",
+      "odd": 6.0
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "William Hill",
+      "aposta": "FC Porto",
+      "odd": 1.18
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "William Hill",
+      "aposta": "Moreirense FC",
+      "odd": 17.0
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "William Hill",
+      "aposta": "Draw",
+      "odd": 6.0
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Betsson",
+      "aposta": "FC Porto",
+      "odd": 1.21
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Betsson",
+      "aposta": "Moreirense FC",
+      "odd": 18.0
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Betsson",
+      "aposta": "Draw",
+      "odd": 5.25
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Nordic Bet",
+      "aposta": "FC Porto",
+      "odd": 1.21
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Moreirense FC",
+      "odd": 18.0
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Draw",
+      "odd": 5.25
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Coolbet",
+      "aposta": "FC Porto",
+      "odd": 1.19
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Coolbet",
+      "aposta": "Moreirense FC",
+      "odd": 17.0
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Coolbet",
+      "aposta": "Draw",
+      "odd": 6.5
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Betfair",
+      "aposta": "FC Porto",
+      "odd": 1.2
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Betfair",
+      "aposta": "Moreirense FC",
+      "odd": 23.0
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Betfair",
+      "aposta": "Draw",
+      "odd": 7.4
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Matchbook",
+      "aposta": "FC Porto",
+      "odd": 1.2
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Matchbook",
+      "aposta": "Moreirense FC",
+      "odd": 23.0
+    },
+    {
+      "event_id": "3d0009a0de326cabf066f420d2b79449",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "FC Porto vs Moreirense FC",
+      "bookmaker": "Matchbook",
+      "aposta": "Draw",
+      "odd": 7.6
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "PMU (FR)",
+      "aposta": "CF Estrela",
+      "odd": 3.05
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Famalicão",
+      "odd": 2.23
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Draw",
+      "odd": 3.05
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "CF Estrela",
+      "odd": 3.05
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Famalicão",
+      "odd": 2.23
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Draw",
+      "odd": 3.0
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "CF Estrela",
+      "odd": 3.0
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Famalicão",
+      "odd": 2.2
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Draw",
+      "odd": 3.0
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "CF Estrela",
+      "odd": 3.05
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Famalicão",
+      "odd": 2.23
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Draw",
+      "odd": 3.0
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "BetOnline.ag",
+      "aposta": "CF Estrela",
+      "odd": 3.1
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "BetOnline.ag",
+      "aposta": "Famalicão",
+      "odd": 2.4
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "BetOnline.ag",
+      "aposta": "Draw",
+      "odd": 3.0
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "CF Estrela",
+      "odd": 2.85
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Famalicão",
+      "odd": 2.25
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Draw",
+      "odd": 3.0
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "CF Estrela",
+      "odd": 2.97
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Famalicão",
+      "odd": 2.27
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Draw",
+      "odd": 3.12
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Pinnacle",
+      "aposta": "CF Estrela",
+      "odd": 3.11
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Pinnacle",
+      "aposta": "Famalicão",
+      "odd": 2.45
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Pinnacle",
+      "aposta": "Draw",
+      "odd": 3.12
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "GTbets",
+      "aposta": "CF Estrela",
+      "odd": 3.07
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "GTbets",
+      "aposta": "Famalicão",
+      "odd": 2.4
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "GTbets",
+      "aposta": "Draw",
+      "odd": 3.19
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Coolbet",
+      "aposta": "CF Estrela",
+      "odd": 3.1
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Coolbet",
+      "aposta": "Famalicão",
+      "odd": 2.35
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Coolbet",
+      "aposta": "Draw",
+      "odd": 3.3
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Marathon Bet",
+      "aposta": "CF Estrela",
+      "odd": 3.08
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Famalicão",
+      "odd": 2.36
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Draw",
+      "odd": 3.1
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "CF Estrela",
+      "odd": 2.8
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Famalicão",
+      "odd": 2.25
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Draw",
+      "odd": 3.05
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "CF Estrela",
+      "odd": 2.85
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Famalicão",
+      "odd": 2.3
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Draw",
+      "odd": 3.15
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Betfair",
+      "aposta": "CF Estrela",
+      "odd": 3.15
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Betfair",
+      "aposta": "Famalicão",
+      "odd": 2.4
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Betfair",
+      "aposta": "Draw",
+      "odd": 3.15
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Tipico",
+      "aposta": "CF Estrela",
+      "odd": 3.0
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Tipico",
+      "aposta": "Famalicão",
+      "odd": 2.4
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Tipico",
+      "aposta": "Draw",
+      "odd": 3.1
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "888sport",
+      "aposta": "CF Estrela",
+      "odd": 3.0
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "888sport",
+      "aposta": "Famalicão",
+      "odd": 2.38
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "888sport",
+      "aposta": "Draw",
+      "odd": 3.0
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "William Hill",
+      "aposta": "CF Estrela",
+      "odd": 3.0
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "William Hill",
+      "aposta": "Famalicão",
+      "odd": 2.38
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "William Hill",
+      "aposta": "Draw",
+      "odd": 3.0
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Nordic Bet",
+      "aposta": "CF Estrela",
+      "odd": 2.9
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Famalicão",
+      "odd": 2.35
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Draw",
+      "odd": 3.15
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Betsson",
+      "aposta": "CF Estrela",
+      "odd": 2.9
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Betsson",
+      "aposta": "Famalicão",
+      "odd": 2.35
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Betsson",
+      "aposta": "Draw",
+      "odd": 3.15
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Matchbook",
+      "aposta": "CF Estrela",
+      "odd": 3.15
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Matchbook",
+      "aposta": "Famalicão",
+      "odd": 2.42
+    },
+    {
+      "event_id": "c17f6a0061b6df77c73b11008e848185",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CF Estrela vs Famalicão",
+      "bookmaker": "Matchbook",
+      "aposta": "Draw",
+      "odd": 3.25
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "GTbets",
+      "aposta": "Alverca",
+      "odd": 4.44
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "GTbets",
+      "aposta": "Braga",
+      "odd": 1.88
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "GTbets",
+      "aposta": "Draw",
+      "odd": 3.46
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Alverca",
+      "odd": 4.0
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Braga",
+      "odd": 1.7
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Draw",
+      "odd": 3.4
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "BetOnline.ag",
+      "aposta": "Alverca",
+      "odd": 4.4
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "BetOnline.ag",
+      "aposta": "Braga",
+      "odd": 1.79
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "BetOnline.ag",
+      "aposta": "Draw",
+      "odd": 3.5
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Alverca",
+      "odd": 4.1
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Braga",
+      "odd": 1.72
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Draw",
+      "odd": 3.5
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Alverca",
+      "odd": 4.15
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Braga",
+      "odd": 1.7
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Draw",
+      "odd": 3.3
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Coolbet",
+      "aposta": "Alverca",
+      "odd": 4.4
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Coolbet",
+      "aposta": "Braga",
+      "odd": 1.83
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Coolbet",
+      "aposta": "Draw",
+      "odd": 3.6
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Alverca",
+      "odd": 4.4
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Braga",
+      "odd": 1.71
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Draw",
+      "odd": 3.47
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Betfair",
+      "aposta": "Alverca",
+      "odd": 5.0
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Betfair",
+      "aposta": "Braga",
+      "odd": 1.77
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Betfair",
+      "aposta": "Draw",
+      "odd": 3.5
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Alverca",
+      "odd": 4.0
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Braga",
+      "odd": 1.79
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Draw",
+      "odd": 3.3
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Alverca",
+      "odd": 4.0
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Braga",
+      "odd": 1.79
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Draw",
+      "odd": 3.3
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Alverca",
+      "odd": 4.0
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Braga",
+      "odd": 1.8
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Draw",
+      "odd": 3.35
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Alverca",
+      "odd": 3.95
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Braga",
+      "odd": 1.78
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Draw",
+      "odd": 3.3
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Alverca",
+      "odd": 4.55
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Braga",
+      "odd": 1.77
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Draw",
+      "odd": 3.48
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "888sport",
+      "aposta": "Alverca",
+      "odd": 4.33
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "888sport",
+      "aposta": "Braga",
+      "odd": 1.8
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "888sport",
+      "aposta": "Draw",
+      "odd": 3.3
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "William Hill",
+      "aposta": "Alverca",
+      "odd": 4.33
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "William Hill",
+      "aposta": "Braga",
+      "odd": 1.8
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "William Hill",
+      "aposta": "Draw",
+      "odd": 3.3
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Tipico",
+      "aposta": "Alverca",
+      "odd": 5.2
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Tipico",
+      "aposta": "Braga",
+      "odd": 1.72
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Tipico",
+      "aposta": "Draw",
+      "odd": 3.4
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Pinnacle",
+      "aposta": "Alverca",
+      "odd": 4.72
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Pinnacle",
+      "aposta": "Braga",
+      "odd": 1.78
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Pinnacle",
+      "aposta": "Draw",
+      "odd": 3.6
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Alverca",
+      "odd": 4.65
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Braga",
+      "odd": 1.75
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Draw",
+      "odd": 3.4
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Betsson",
+      "aposta": "Alverca",
+      "odd": 4.65
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Betsson",
+      "aposta": "Braga",
+      "odd": 1.75
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Betsson",
+      "aposta": "Draw",
+      "odd": 3.4
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Matchbook",
+      "aposta": "Alverca",
+      "odd": 4.9
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Matchbook",
+      "aposta": "Braga",
+      "odd": 1.77
+    },
+    {
+      "event_id": "b1fe2632f928b1140fb7f38c6ecd94a6",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Alverca vs Braga",
+      "bookmaker": "Matchbook",
+      "aposta": "Draw",
+      "odd": 3.55
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Benfica",
+      "odd": 1.25
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "PMU (FR)",
+      "aposta": "CS Maritimo",
+      "odd": 9.5
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Draw",
+      "odd": 5.2
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Benfica",
+      "odd": 1.24
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "CS Maritimo",
+      "odd": 9.0
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Draw",
+      "odd": 5.2
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Benfica",
+      "odd": 1.24
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "CS Maritimo",
+      "odd": 9.0
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Draw",
+      "odd": 5.1
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Benfica",
+      "odd": 1.24
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "CS Maritimo",
+      "odd": 9.0
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Draw",
+      "odd": 5.2
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Benfica",
+      "odd": 1.2
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "CS Maritimo",
+      "odd": 9.5
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Draw",
+      "odd": 5.2
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Benfica",
+      "odd": 1.21
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "CS Maritimo",
+      "odd": 10.25
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Draw",
+      "odd": 5.75
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Benfica",
+      "odd": 1.21
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "CS Maritimo",
+      "odd": 8.5
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Draw",
+      "odd": 5.5
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Benfica",
+      "odd": 1.22
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "CS Maritimo",
+      "odd": 9.0
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Draw",
+      "odd": 5.8
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "GTbets",
+      "aposta": "Benfica",
+      "odd": 1.29
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "GTbets",
+      "aposta": "CS Maritimo",
+      "odd": 10.94
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "GTbets",
+      "aposta": "Draw",
+      "odd": 5.74
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "BetOnline.ag",
+      "aposta": "Benfica",
+      "odd": 1.23
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "BetOnline.ag",
+      "aposta": "CS Maritimo",
+      "odd": 10.0
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "BetOnline.ag",
+      "aposta": "Draw",
+      "odd": 5.9
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Betfair",
+      "aposta": "Benfica",
+      "odd": 1.26
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Betfair",
+      "aposta": "CS Maritimo",
+      "odd": 12.0
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Betfair",
+      "aposta": "Draw",
+      "odd": 6.2
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Benfica",
+      "odd": 1.24
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Marathon Bet",
+      "aposta": "CS Maritimo",
+      "odd": 11.0
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Draw",
+      "odd": 5.75
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "888sport",
+      "aposta": "Benfica",
+      "odd": 1.25
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "888sport",
+      "aposta": "CS Maritimo",
+      "odd": 10.0
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "888sport",
+      "aposta": "Draw",
+      "odd": 5.5
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "William Hill",
+      "aposta": "Benfica",
+      "odd": 1.25
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "William Hill",
+      "aposta": "CS Maritimo",
+      "odd": 10.0
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "William Hill",
+      "aposta": "Draw",
+      "odd": 5.5
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Tipico",
+      "aposta": "Benfica",
+      "odd": 1.22
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Tipico",
+      "aposta": "CS Maritimo",
+      "odd": 12.0
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Tipico",
+      "aposta": "Draw",
+      "odd": 6.0
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Pinnacle",
+      "aposta": "Benfica",
+      "odd": 1.24
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Pinnacle",
+      "aposta": "CS Maritimo",
+      "odd": 10.55
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Pinnacle",
+      "aposta": "Draw",
+      "odd": 6.09
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Benfica",
+      "odd": 1.26
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Nordic Bet",
+      "aposta": "CS Maritimo",
+      "odd": 12.5
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Draw",
+      "odd": 4.8
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Betsson",
+      "aposta": "Benfica",
+      "odd": 1.26
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Betsson",
+      "aposta": "CS Maritimo",
+      "odd": 12.5
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Betsson",
+      "aposta": "Draw",
+      "odd": 4.8
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Matchbook",
+      "aposta": "Benfica",
+      "odd": 1.28
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Matchbook",
+      "aposta": "CS Maritimo",
+      "odd": 13.0
+    },
+    {
+      "event_id": "051907e4acd60a04733082a189eb8b24",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "CS Maritimo vs Benfica",
+      "bookmaker": "Matchbook",
+      "aposta": "Draw",
+      "odd": 6.2
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Nacional",
+      "odd": 11.0
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Sporting Lisbon",
+      "odd": 1.18
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Draw",
+      "odd": 6.0
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Nacional",
+      "odd": 9.0
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Sporting Lisbon",
+      "odd": 1.17
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Draw",
+      "odd": 6.25
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Nacional",
+      "odd": 11.0
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Sporting Lisbon",
+      "odd": 1.18
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Draw",
+      "odd": 6.0
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Nacional",
+      "odd": 11.0
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Sporting Lisbon",
+      "odd": 1.18
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Draw",
+      "odd": 6.0
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Nacional",
+      "odd": 11.0
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Sporting Lisbon",
+      "odd": 1.19
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Draw",
+      "odd": 6.0
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Nacional",
+      "odd": 9.5
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Sporting Lisbon",
+      "odd": 1.18
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Draw",
+      "odd": 6.5
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Nacional",
+      "odd": 10.0
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Sporting Lisbon",
+      "odd": 1.16
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Draw",
+      "odd": 5.8
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Nacional",
+      "odd": 11.25
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Sporting Lisbon",
+      "odd": 1.17
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Draw",
+      "odd": 6.4
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Tipico",
+      "aposta": "Nacional",
+      "odd": 13.0
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Tipico",
+      "aposta": "Sporting Lisbon",
+      "odd": 1.17
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Tipico",
+      "aposta": "Draw",
+      "odd": 7.2
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Coolbet",
+      "aposta": "Nacional",
+      "odd": 12.0
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Coolbet",
+      "aposta": "Sporting Lisbon",
+      "odd": 1.22
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Coolbet",
+      "aposta": "Draw",
+      "odd": 6.75
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "BetOnline.ag",
+      "aposta": "Nacional",
+      "odd": 10.5
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "BetOnline.ag",
+      "aposta": "Sporting Lisbon",
+      "odd": 1.21
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "BetOnline.ag",
+      "aposta": "Draw",
+      "odd": 6.0
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Betfair",
+      "aposta": "Nacional",
+      "odd": 16.0
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Betfair",
+      "aposta": "Sporting Lisbon",
+      "odd": 1.22
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Betfair",
+      "aposta": "Draw",
+      "odd": 7.2
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "888sport",
+      "aposta": "Nacional",
+      "odd": 12.0
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "888sport",
+      "aposta": "Sporting Lisbon",
+      "odd": 1.22
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "888sport",
+      "aposta": "Draw",
+      "odd": 5.75
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "William Hill",
+      "aposta": "Nacional",
+      "odd": 12.0
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "William Hill",
+      "aposta": "Sporting Lisbon",
+      "odd": 1.22
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "William Hill",
+      "aposta": "Draw",
+      "odd": 5.8
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Nacional",
+      "odd": 12.0
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Sporting Lisbon",
+      "odd": 1.22
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Draw",
+      "odd": 5.9
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Nacional",
+      "odd": 14.5
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Sporting Lisbon",
+      "odd": 1.21
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Draw",
+      "odd": 5.7
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Betsson",
+      "aposta": "Nacional",
+      "odd": 14.5
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Betsson",
+      "aposta": "Sporting Lisbon",
+      "odd": 1.21
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Betsson",
+      "aposta": "Draw",
+      "odd": 5.7
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Matchbook",
+      "aposta": "Nacional",
+      "odd": 16.0
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Matchbook",
+      "aposta": "Sporting Lisbon",
+      "odd": 1.22
+    },
+    {
+      "event_id": "ee24c3996382303b332efd348e2fb618",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Sporting Lisbon vs Nacional",
+      "bookmaker": "Matchbook",
+      "aposta": "Draw",
+      "odd": 7.4
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Rio Ave FC",
+      "odd": 4.25
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Santa Clara",
+      "odd": 1.74
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Draw",
+      "odd": 3.35
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Rio Ave FC",
+      "odd": 4.25
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Santa Clara",
+      "odd": 1.73
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Draw",
+      "odd": 3.35
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Rio Ave FC",
+      "odd": 4.25
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Santa Clara",
+      "odd": 1.75
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Draw",
+      "odd": 3.35
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Rio Ave FC",
+      "odd": 4.5
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Santa Clara",
+      "odd": 1.72
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Draw",
+      "odd": 3.35
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Rio Ave FC",
+      "odd": 4.25
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Santa Clara",
+      "odd": 1.74
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Draw",
+      "odd": 3.35
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Rio Ave FC",
+      "odd": 4.3
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Santa Clara",
+      "odd": 1.71
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Draw",
+      "odd": 3.2
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Rio Ave FC",
+      "odd": 4.1
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Santa Clara",
+      "odd": 1.7
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Draw",
+      "odd": 3.25
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Rio Ave FC",
+      "odd": 4.2
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Santa Clara",
+      "odd": 1.72
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Draw",
+      "odd": 3.35
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "GTbets",
+      "aposta": "Rio Ave FC",
+      "odd": 4.79
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "GTbets",
+      "aposta": "Santa Clara",
+      "odd": 1.82
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "GTbets",
+      "aposta": "Draw",
+      "odd": 3.46
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Tipico",
+      "aposta": "Rio Ave FC",
+      "odd": 4.7
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Tipico",
+      "aposta": "Santa Clara",
+      "odd": 1.75
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Tipico",
+      "aposta": "Draw",
+      "odd": 3.5
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "BetOnline.ag",
+      "aposta": "Rio Ave FC",
+      "odd": 4.6
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "BetOnline.ag",
+      "aposta": "Santa Clara",
+      "odd": 1.76
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "BetOnline.ag",
+      "aposta": "Draw",
+      "odd": 3.5
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Coolbet",
+      "aposta": "Rio Ave FC",
+      "odd": 4.75
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Coolbet",
+      "aposta": "Santa Clara",
+      "odd": 1.8
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Coolbet",
+      "aposta": "Draw",
+      "odd": 3.5
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Pinnacle",
+      "aposta": "Rio Ave FC",
+      "odd": 5.0
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Pinnacle",
+      "aposta": "Santa Clara",
+      "odd": 1.73
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Pinnacle",
+      "aposta": "Draw",
+      "odd": 3.62
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Rio Ave FC",
+      "odd": 4.75
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Santa Clara",
+      "odd": 1.74
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Draw",
+      "odd": 3.5
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "888sport",
+      "aposta": "Rio Ave FC",
+      "odd": 4.5
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "888sport",
+      "aposta": "Santa Clara",
+      "odd": 1.75
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "888sport",
+      "aposta": "Draw",
+      "odd": 3.4
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "William Hill",
+      "aposta": "Rio Ave FC",
+      "odd": 4.5
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "William Hill",
+      "aposta": "Santa Clara",
+      "odd": 1.75
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "William Hill",
+      "aposta": "Draw",
+      "odd": 3.4
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Betfair",
+      "aposta": "Rio Ave FC",
+      "odd": 5.4
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Betfair",
+      "aposta": "Santa Clara",
+      "odd": 1.74
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Betfair",
+      "aposta": "Draw",
+      "odd": 3.45
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Betsson",
+      "aposta": "Rio Ave FC",
+      "odd": 4.65
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Betsson",
+      "aposta": "Santa Clara",
+      "odd": 1.75
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Betsson",
+      "aposta": "Draw",
+      "odd": 3.4
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Rio Ave FC",
+      "odd": 4.65
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Santa Clara",
+      "odd": 1.75
+    },
+    {
+      "event_id": "3dc7a6a0caafc36795f45e7ab7fa1c83",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Santa Clara vs Rio Ave FC",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Draw",
+      "odd": 3.4
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Casa Pia",
+      "odd": 5.25
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Vitória SC",
+      "odd": 1.56
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Draw",
+      "odd": 3.65
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Casa Pia",
+      "odd": 5.2
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Vitória SC",
+      "odd": 1.56
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Draw",
+      "odd": 3.65
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Casa Pia",
+      "odd": 5.2
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Vitória SC",
+      "odd": 1.55
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Draw",
+      "odd": 3.6
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Casa Pia",
+      "odd": 5.2
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Vitória SC",
+      "odd": 1.56
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Draw",
+      "odd": 3.65
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Casa Pia",
+      "odd": 5.5
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Vitória SC",
+      "odd": 1.48
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Draw",
+      "odd": 3.7
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Casa Pia",
+      "odd": 5.75
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Vitória SC",
+      "odd": 1.49
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Draw",
+      "odd": 3.9
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Casa Pia",
+      "odd": 5.3
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Vitória SC",
+      "odd": 1.5
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Draw",
+      "odd": 3.9
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Casa Pia",
+      "odd": 5.1
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Vitória SC",
+      "odd": 1.48
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Draw",
+      "odd": 3.8
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "GTbets",
+      "aposta": "Casa Pia",
+      "odd": 5.87
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "GTbets",
+      "aposta": "Vitória SC",
+      "odd": 1.58
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "GTbets",
+      "aposta": "Draw",
+      "odd": 3.9
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Coolbet",
+      "aposta": "Casa Pia",
+      "odd": 6.25
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Coolbet",
+      "aposta": "Vitória SC",
+      "odd": 1.53
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Coolbet",
+      "aposta": "Draw",
+      "odd": 4.0
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "BetOnline.ag",
+      "aposta": "Casa Pia",
+      "odd": 6.5
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "BetOnline.ag",
+      "aposta": "Vitória SC",
+      "odd": 1.48
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "BetOnline.ag",
+      "aposta": "Draw",
+      "odd": 4.0
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Casa Pia",
+      "odd": 6.3
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Vitória SC",
+      "odd": 1.53
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Draw",
+      "odd": 3.85
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "888sport",
+      "aposta": "Casa Pia",
+      "odd": 6.0
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "888sport",
+      "aposta": "Vitória SC",
+      "odd": 1.53
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "888sport",
+      "aposta": "Draw",
+      "odd": 3.7
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "William Hill",
+      "aposta": "Casa Pia",
+      "odd": 6.0
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "William Hill",
+      "aposta": "Vitória SC",
+      "odd": 1.55
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "William Hill",
+      "aposta": "Draw",
+      "odd": 3.7
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Betfair",
+      "aposta": "Casa Pia",
+      "odd": 6.8
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Betfair",
+      "aposta": "Vitória SC",
+      "odd": 1.55
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Betfair",
+      "aposta": "Draw",
+      "odd": 3.95
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Tipico",
+      "aposta": "Casa Pia",
+      "odd": 6.5
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Tipico",
+      "aposta": "Vitória SC",
+      "odd": 1.5
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Tipico",
+      "aposta": "Draw",
+      "odd": 4.0
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Pinnacle",
+      "aposta": "Casa Pia",
+      "odd": 6.36
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Pinnacle",
+      "aposta": "Vitória SC",
+      "odd": 1.54
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Pinnacle",
+      "aposta": "Draw",
+      "odd": 4.01
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Casa Pia",
+      "odd": 6.3
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Vitória SC",
+      "odd": 1.55
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Draw",
+      "odd": 3.6
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Betsson",
+      "aposta": "Casa Pia",
+      "odd": 6.3
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Betsson",
+      "aposta": "Vitória SC",
+      "odd": 1.55
+    },
+    {
+      "event_id": "07446bd6c26af568bd6c52f2ebeef357",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Vitória SC vs Casa Pia",
+      "bookmaker": "Betsson",
+      "aposta": "Draw",
+      "odd": 3.6
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Académico de Viseu",
+      "odd": 4.2
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Gil Vicente",
+      "odd": 1.75
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Draw",
+      "odd": 3.3
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Académico de Viseu",
+      "odd": 3.98
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Gil Vicente",
+      "odd": 1.82
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Draw",
+      "odd": 3.33
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Académico de Viseu",
+      "odd": 4.2
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Gil Vicente",
+      "odd": 1.75
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Draw",
+      "odd": 3.3
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Académico de Viseu",
+      "odd": 3.8
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Gil Vicente",
+      "odd": 1.81
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Draw",
+      "odd": 3.2
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Académico de Viseu",
+      "odd": 4.2
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Gil Vicente",
+      "odd": 1.76
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Draw",
+      "odd": 3.3
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Académico de Viseu",
+      "odd": 4.2
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Gil Vicente",
+      "odd": 1.74
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Draw",
+      "odd": 3.25
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Académico de Viseu",
+      "odd": 3.7
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Gil Vicente",
+      "odd": 1.84
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Draw",
+      "odd": 3.3
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Académico de Viseu",
+      "odd": 3.65
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Gil Vicente",
+      "odd": 1.8
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Draw",
+      "odd": 3.25
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "GTbets",
+      "aposta": "Académico de Viseu",
+      "odd": 4.21
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "GTbets",
+      "aposta": "Gil Vicente",
+      "odd": 1.85
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "GTbets",
+      "aposta": "Draw",
+      "odd": 3.53
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Tipico",
+      "aposta": "Académico de Viseu",
+      "odd": 4.2
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Tipico",
+      "aposta": "Gil Vicente",
+      "odd": 1.83
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Tipico",
+      "aposta": "Draw",
+      "odd": 3.5
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Coolbet",
+      "aposta": "Académico de Viseu",
+      "odd": 4.0
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Coolbet",
+      "aposta": "Gil Vicente",
+      "odd": 1.92
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Coolbet",
+      "aposta": "Draw",
+      "odd": 3.6
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "BetOnline.ag",
+      "aposta": "Académico de Viseu",
+      "odd": 3.95
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "BetOnline.ag",
+      "aposta": "Gil Vicente",
+      "odd": 1.92
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "BetOnline.ag",
+      "aposta": "Draw",
+      "odd": 3.4
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Académico de Viseu",
+      "odd": 3.98
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Gil Vicente",
+      "odd": 1.9
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Draw",
+      "odd": 3.4
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "888sport",
+      "aposta": "Académico de Viseu",
+      "odd": 3.9
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "888sport",
+      "aposta": "Gil Vicente",
+      "odd": 1.91
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "888sport",
+      "aposta": "Draw",
+      "odd": 3.25
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "William Hill",
+      "aposta": "Académico de Viseu",
+      "odd": 3.9
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "William Hill",
+      "aposta": "Gil Vicente",
+      "odd": 1.91
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "William Hill",
+      "aposta": "Draw",
+      "odd": 3.25
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Pinnacle",
+      "aposta": "Académico de Viseu",
+      "odd": 3.96
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Pinnacle",
+      "aposta": "Gil Vicente",
+      "odd": 1.95
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Pinnacle",
+      "aposta": "Draw",
+      "odd": 3.49
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Betfair",
+      "aposta": "Académico de Viseu",
+      "odd": 4.1
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Betfair",
+      "aposta": "Gil Vicente",
+      "odd": 1.92
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Betfair",
+      "aposta": "Draw",
+      "odd": 3.35
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Académico de Viseu",
+      "odd": 3.95
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Gil Vicente",
+      "odd": 1.88
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Draw",
+      "odd": 3.4
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Betsson",
+      "aposta": "Académico de Viseu",
+      "odd": 3.95
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Betsson",
+      "aposta": "Gil Vicente",
+      "odd": 1.88
+    },
+    {
+      "event_id": "b8fa9ceb61617e5f79e751a05b0cdfb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Gil Vicente vs Académico de Viseu",
+      "bookmaker": "Betsson",
+      "aposta": "Draw",
+      "odd": 3.4
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Arouca",
+      "odd": 3.0
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Estoril",
+      "odd": 2.14
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Draw",
+      "odd": 3.2
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Arouca",
+      "odd": 3.0
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Estoril",
+      "odd": 2.14
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Draw",
+      "odd": 3.2
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Arouca",
+      "odd": 3.0
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Estoril",
+      "odd": 2.12
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Draw",
+      "odd": 3.2
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Arouca",
+      "odd": 3.0
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Estoril",
+      "odd": 2.15
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Draw",
+      "odd": 3.25
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Arouca",
+      "odd": 2.85
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Estoril",
+      "odd": 2.1
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Draw",
+      "odd": 3.15
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Arouca",
+      "odd": 3.02
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Estoril",
+      "odd": 2.15
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Draw",
+      "odd": 3.3
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Arouca",
+      "odd": 2.85
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Estoril",
+      "odd": 2.15
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Draw",
+      "odd": 3.3
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Arouca",
+      "odd": 2.8
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Estoril",
+      "odd": 2.1
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Draw",
+      "odd": 3.2
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Pinnacle",
+      "aposta": "Arouca",
+      "odd": 3.02
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Pinnacle",
+      "aposta": "Estoril",
+      "odd": 2.35
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Pinnacle",
+      "aposta": "Draw",
+      "odd": 3.42
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Arouca",
+      "odd": 2.97
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Estoril",
+      "odd": 2.29
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Draw",
+      "odd": 3.34
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "BetOnline.ag",
+      "aposta": "Arouca",
+      "odd": 3.0
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "BetOnline.ag",
+      "aposta": "Estoril",
+      "odd": 2.26
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "BetOnline.ag",
+      "aposta": "Draw",
+      "odd": 3.35
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Tipico",
+      "aposta": "Arouca",
+      "odd": 3.1
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Tipico",
+      "aposta": "Estoril",
+      "odd": 2.25
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Tipico",
+      "aposta": "Draw",
+      "odd": 3.3
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "GTbets",
+      "aposta": "Arouca",
+      "odd": 3.15
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "GTbets",
+      "aposta": "Estoril",
+      "odd": 2.25
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "GTbets",
+      "aposta": "Draw",
+      "odd": 3.41
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "888sport",
+      "aposta": "Arouca",
+      "odd": 2.9
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "888sport",
+      "aposta": "Estoril",
+      "odd": 2.3
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "888sport",
+      "aposta": "Draw",
+      "odd": 3.25
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "William Hill",
+      "aposta": "Arouca",
+      "odd": 2.9
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "William Hill",
+      "aposta": "Estoril",
+      "odd": 2.3
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "William Hill",
+      "aposta": "Draw",
+      "odd": 3.25
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Coolbet",
+      "aposta": "Arouca",
+      "odd": 3.2
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Coolbet",
+      "aposta": "Estoril",
+      "odd": 2.17
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Coolbet",
+      "aposta": "Draw",
+      "odd": 3.6
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Betfair",
+      "aposta": "Arouca",
+      "odd": 2.98
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Betfair",
+      "aposta": "Estoril",
+      "odd": 2.3
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Betfair",
+      "aposta": "Draw",
+      "odd": 3.45
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Arouca",
+      "odd": 2.95
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Estoril",
+      "odd": 2.25
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Draw",
+      "odd": 3.3
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Betsson",
+      "aposta": "Arouca",
+      "odd": 2.95
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Betsson",
+      "aposta": "Estoril",
+      "odd": 2.25
+    },
+    {
+      "event_id": "d76d1cde75744af33fca9ca4272be7fb",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Estoril vs Arouca",
+      "bookmaker": "Betsson",
+      "aposta": "Draw",
+      "odd": 3.3
+    },
+    {
+      "event_id": "a889e12871f37930455999b0dbc98cb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Moreirense FC vs Benfica",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Benfica",
+      "odd": 1.19
+    },
+    {
+      "event_id": "a889e12871f37930455999b0dbc98cb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Moreirense FC vs Benfica",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Moreirense FC",
+      "odd": 10.5
+    },
+    {
+      "event_id": "a889e12871f37930455999b0dbc98cb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Moreirense FC vs Benfica",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Draw",
+      "odd": 5.6
+    },
+    {
+      "event_id": "a889e12871f37930455999b0dbc98cb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Moreirense FC vs Benfica",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Benfica",
+      "odd": 1.19
+    },
+    {
+      "event_id": "a889e12871f37930455999b0dbc98cb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Moreirense FC vs Benfica",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Moreirense FC",
+      "odd": 11.25
+    },
+    {
+      "event_id": "a889e12871f37930455999b0dbc98cb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Moreirense FC vs Benfica",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Draw",
+      "odd": 6.0
+    },
+    {
+      "event_id": "a889e12871f37930455999b0dbc98cb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Moreirense FC vs Benfica",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Benfica",
+      "odd": 1.2
+    },
+    {
+      "event_id": "a889e12871f37930455999b0dbc98cb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Moreirense FC vs Benfica",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Moreirense FC",
+      "odd": 10.5
+    },
+    {
+      "event_id": "a889e12871f37930455999b0dbc98cb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Moreirense FC vs Benfica",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Draw",
+      "odd": 5.6
+    },
+    {
+      "event_id": "a889e12871f37930455999b0dbc98cb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Moreirense FC vs Benfica",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Benfica",
+      "odd": 1.2
+    },
+    {
+      "event_id": "a889e12871f37930455999b0dbc98cb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Moreirense FC vs Benfica",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Moreirense FC",
+      "odd": 10.5
+    },
+    {
+      "event_id": "a889e12871f37930455999b0dbc98cb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Moreirense FC vs Benfica",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Draw",
+      "odd": 5.75
+    },
+    {
+      "event_id": "a889e12871f37930455999b0dbc98cb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Moreirense FC vs Benfica",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Benfica",
+      "odd": 1.2
+    },
+    {
+      "event_id": "a889e12871f37930455999b0dbc98cb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Moreirense FC vs Benfica",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Moreirense FC",
+      "odd": 10.5
+    },
+    {
+      "event_id": "a889e12871f37930455999b0dbc98cb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Moreirense FC vs Benfica",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Draw",
+      "odd": 5.6
+    },
+    {
+      "event_id": "a889e12871f37930455999b0dbc98cb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Moreirense FC vs Benfica",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Benfica",
+      "odd": 1.17
+    },
+    {
+      "event_id": "a889e12871f37930455999b0dbc98cb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Moreirense FC vs Benfica",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Moreirense FC",
+      "odd": 9.5
+    },
+    {
+      "event_id": "a889e12871f37930455999b0dbc98cb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Moreirense FC vs Benfica",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Draw",
+      "odd": 5.2
+    },
+    {
+      "event_id": "a889e12871f37930455999b0dbc98cb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Moreirense FC vs Benfica",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Benfica",
+      "odd": 1.17
+    },
+    {
+      "event_id": "a889e12871f37930455999b0dbc98cb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Moreirense FC vs Benfica",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Moreirense FC",
+      "odd": 8.5
+    },
+    {
+      "event_id": "a889e12871f37930455999b0dbc98cb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Moreirense FC vs Benfica",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Draw",
+      "odd": 5.4
+    },
+    {
+      "event_id": "a889e12871f37930455999b0dbc98cb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Moreirense FC vs Benfica",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Benfica",
+      "odd": 1.18
+    },
+    {
+      "event_id": "a889e12871f37930455999b0dbc98cb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Moreirense FC vs Benfica",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Moreirense FC",
+      "odd": 9.0
+    },
+    {
+      "event_id": "a889e12871f37930455999b0dbc98cb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Moreirense FC vs Benfica",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Draw",
+      "odd": 5.7
+    },
+    {
+      "event_id": "a889e12871f37930455999b0dbc98cb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Moreirense FC vs Benfica",
+      "bookmaker": "GTbets",
+      "aposta": "Benfica",
+      "odd": 1.2
+    },
+    {
+      "event_id": "a889e12871f37930455999b0dbc98cb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Moreirense FC vs Benfica",
+      "bookmaker": "GTbets",
+      "aposta": "Moreirense FC",
+      "odd": 12.55
+    },
+    {
+      "event_id": "a889e12871f37930455999b0dbc98cb1",
+      "data_hora": "2026-09-03T13:53:14.459093+00:00",
+      "jogo": "Moreirense FC vs Benfica",
+      "bookmaker": "GTbets",
+      "aposta": "Draw",
+      "odd": 6.88
     }
   ]
 }
