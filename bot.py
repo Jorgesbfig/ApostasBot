@@ -1,88 +1,123 @@
 import os
-import sqlite3
+import json
+import statistics
 import requests
 from datetime import datetime, timezone
 
-# =========================
+# ============================================================
 # CONFIGURAÇÃO
-# =========================
+# ============================================================
 
 API_KEY = os.getenv("ODDS_API_KEY")
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
 SPORT = "soccer_portugal_primeira_liga"
 REGION = "eu"
 
 BANCA_INICIAL = 20.00
+STAKE_MIN = 0.50
 STAKE_MAX = 2.00
-MAX_SINAIS_POR_JOGO = 1
 
-DB = "historico.db"
+MIN_BOOKMAKERS = 4
+MIN_VALUE = 0.03
+MIN_SCORE = 75
 
-# =========================
-# BASE DE DADOS
-# =========================
+HISTORICO_FILE = "historico.json"
 
-conn = sqlite3.connect(DB)
-cur = conn.cursor()
 
-cur.execute("""
-CREATE TABLE IF NOT EXISTS apostas_virtuais (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    event_id TEXT,
-    data_hora TEXT,
-    jogo TEXT,
-    aposta TEXT,
-    odd REAL,
-    probabilidade REAL,
-    value REAL,
-    score INTEGER,
-    stake REAL,
-    data_jogo TEXT,
-    estado TEXT DEFAULT 'PENDENTE',
-    lucro REAL DEFAULT 0
-)
-""")
+# ============================================================
+# HISTÓRICO
+# ============================================================
 
-cur.execute("""
-CREATE TABLE IF NOT EXISTS snapshots (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    event_id TEXT,
-    data_hora TEXT,
-    jogo TEXT,
-    bookmaker TEXT,
-    aposta TEXT,
-    odd REAL
-)
-""")
+def carregar_historico():
 
-conn.commit()
+    if not os.path.exists(HISTORICO_FILE):
+        return {
+            "banca_inicial": BANCA_INICIAL,
+            "banca_atual": BANCA_INICIAL,
+            "apostas": [],
+            "snapshots": []
+        }
 
-# =========================
+    try:
+        with open(HISTORICO_FILE, "r", encoding="utf-8") as f:
+            dados = json.load(f)
+
+        dados.setdefault("banca_inicial", BANCA_INICIAL)
+        dados.setdefault("banca_atual", BANCA_INICIAL)
+        dados.setdefault("apostas", [])
+        dados.setdefault("snapshots", [])
+
+        return dados
+
+    except Exception:
+        return {
+            "banca_inicial": BANCA_INICIAL,
+            "banca_atual": BANCA_INICIAL,
+            "apostas": [],
+            "snapshots": []
+        }
+
+
+def guardar_historico(dados):
+
+    with open(HISTORICO_FILE, "w", encoding="utf-8") as f:
+        json.dump(
+            dados,
+            f,
+            ensure_ascii=False,
+            indent=2
+        )
+
+
+# ============================================================
 # TELEGRAM
-# =========================
+# ============================================================
 
 def enviar_telegram(texto):
-    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
 
-    response = requests.post(
-        url,
-        data={
-            "chat_id": "1139116211",
-            "text": texto
-        },
-        timeout=30
+    if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
+        print("ERRO: Telegram não configurado.")
+        return False
+
+    url = (
+        f"https://api.telegram.org/"
+        f"bot{TELEGRAM_TOKEN}/sendMessage"
     )
 
-    return response.status_code == 200
+    try:
+
+        resposta = requests.post(
+            url,
+            data={
+                "chat_id": TELEGRAM_CHAT_ID,
+                "text": texto
+            },
+            timeout=30
+        )
+
+        print("Telegram:", resposta.status_code)
+
+        return resposta.status_code == 200
+
+    except Exception as e:
+
+        print("Erro Telegram:", e)
+
+        return False
 
 
-# =========================
-# ODDS API
-# =========================
+# ============================================================
+# THE ODDS API
+# ============================================================
 
 def obter_jogos():
-    url = f"https://api.the-odds-api.com/v4/sports/{SPORT}/odds"
+
+    url = (
+        f"https://api.the-odds-api.com/v4/sports/"
+        f"{SPORT}/odds"
+    )
 
     params = {
         "apiKey": API_KEY,
@@ -91,147 +126,235 @@ def obter_jogos():
         "oddsFormat": "decimal"
     }
 
-    response = requests.get(url, params=params, timeout=30)
+    try:
 
-    print("Estado API:", response.status_code)
+        resposta = requests.get(
+            url,
+            params=params,
+            timeout=30
+        )
 
-    if response.status_code != 200:
-        print(response.text)
+        print("Estado API:", resposta.status_code)
+
+        if resposta.status_code != 200:
+            print(resposta.text)
+            return []
+
+        return resposta.json()
+
+    except Exception as e:
+
+        print("Erro API:", e)
+
         return []
 
-    return response.json()
+
+# ============================================================
+# RESULTADOS
+# ============================================================
+
+def obter_resultados():
+
+    url = (
+        f"https://api.the-odds-api.com/v4/sports/"
+        f"{SPORT}/scores"
+    )
+
+    params = {
+        "apiKey": API_KEY,
+        "daysFrom": 3
+    }
+
+    try:
+
+        resposta = requests.get(
+            url,
+            params=params,
+            timeout=30
+        )
+
+        print("Scores API:", resposta.status_code)
+
+        if resposta.status_code != 200:
+            print(resposta.text)
+            return []
+
+        return resposta.json()
+
+    except Exception as e:
+
+        print("Erro Scores:", e)
+
+        return []
 
 
-# =========================
+# ============================================================
 # PROBABILIDADE JUSTA
-# =========================
+# ============================================================
 
-def probabilidade_justa(odds):
-    """
-    Converte odds de 1X2 em probabilidades implícitas
-    e remove a margem do mercado.
-    """
+def probabilidades_justas(outcomes):
 
-    if not odds:
-        return None
+    odds = []
 
-    inversos = []
+    for outcome in outcomes:
 
-    for odd in odds:
+        odd = outcome.get("price")
+
         if odd and odd > 1:
-            inversos.append(1 / odd)
+            odds.append(odd)
 
-    if len(inversos) < 3:
-        return None
+    if len(odds) < 3:
+        return {}
 
-    total = sum(inversos)
-
-    probabilidades = [
-        x / total for x in inversos
+    probabilidades_brutas = [
+        1 / odd for odd in odds
     ]
 
-    return probabilidades
+    margem = sum(probabilidades_brutas)
+
+    resultado = {}
+
+    for outcome in outcomes:
+
+        nome = outcome.get("name")
+        odd = outcome.get("price")
+
+        if not nome or not odd or odd <= 1:
+            continue
+
+        prob = (1 / odd) / margem
+
+        resultado[nome] = prob
+
+    return resultado
 
 
-# =========================
+# ============================================================
 # SCORE
-# =========================
+# ============================================================
 
-def calcular_score(value, numero_casas):
+def calcular_score(value, casas):
 
     score = 50
 
     if value >= 0.03:
-        score += 5
+        score += 10
 
     if value >= 0.05:
-        score += 10
-
-    if value >= 0.08:
-        score += 10
-
-    if value >= 0.12:
-        score += 10
-
-    if numero_casas >= 5:
         score += 5
 
-    if numero_casas >= 8:
+    if value >= 0.08:
+        score += 5
+
+    if value >= 0.10:
+        score += 5
+
+    if casas >= 5:
+        score += 5
+
+    if casas >= 8:
         score += 5
 
     return min(score, 100)
 
 
-# =========================
+# ============================================================
 # STAKE
-# =========================
+# ============================================================
 
-def calcular_stake(score):
+def calcular_stake(score, banca):
+
+    if banca <= 0:
+        return 0
 
     if score < 75:
-        return 0.50
+        percentagem = 0.025
 
-    if score < 80:
-        return 0.75
+    elif score < 80:
+        percentagem = 0.035
 
-    if score < 85:
-        return 1.00
+    elif score < 85:
+        percentagem = 0.05
 
-    if score < 90:
-        return 1.50
+    elif score < 90:
+        percentagem = 0.065
 
-    return STAKE_MAX
+    else:
+        percentagem = 0.08
+
+    stake = banca * percentagem
+
+    stake = max(STAKE_MIN, stake)
+    stake = min(STAKE_MAX, stake)
+
+    if stake > banca:
+        stake = banca
+
+    return round(stake, 2)
 
 
-# =========================
-# ANÁLISE
-# =========================
+# ============================================================
+# NORMALIZAR NOME DO JOGO
+# ============================================================
 
-def analisar():
+def chave_jogo(home, away):
 
-    jogos = obter_jogos()
+    return (
+        home.strip().lower()
+        + " vs "
+        + away.strip().lower()
+    )
+
+
+# ============================================================
+# ANALISAR JOGOS
+# ============================================================
+
+def analisar_jogos(dados):
 
     agora = datetime.now(timezone.utc)
 
-    sinais = []
+    candidatos = []
 
-    for jogo in jogos:
+    for jogo in dados:
 
         event_id = jogo.get("id")
-        inicio = jogo.get("commence_time")
+        home = jogo.get("home_team")
+        away = jogo.get("away_team")
+        commence_time = jogo.get("commence_time")
 
-        if not inicio:
+        if not event_id or not home or not away:
+            continue
+
+        if not commence_time:
             continue
 
         try:
+
             data_jogo = datetime.fromisoformat(
-                inicio.replace("Z", "+00:00")
+                commence_time.replace("Z", "+00:00")
             )
-        except:
+
+        except Exception:
             continue
 
-        # Ignorar jogos que já começaram
         if data_jogo <= agora:
             continue
 
-        home = jogo.get("home_team", "")
-        away = jogo.get("away_team", "")
         nome_jogo = f"{home} vs {away}"
 
         betclic = None
         outros = []
 
-        # -------------------------
-        # Encontrar bookmakers
-        # -------------------------
+        # ----------------------------------------------------
+        # BOOKMAKERS
+        # ----------------------------------------------------
 
         for bookmaker in jogo.get("bookmakers", []):
 
             nome_bookmaker = bookmaker.get("title", "")
 
-            mercados = bookmaker.get("markets", [])
-
-            for mercado in mercados:
+            for mercado in bookmaker.get("markets", []):
 
                 if mercado.get("key") != "h2h":
                     continue
@@ -241,53 +364,37 @@ def analisar():
                 mapa = {}
 
                 for outcome in outcomes:
+
                     nome = outcome.get("name")
                     odd = outcome.get("price")
 
-                    if nome and odd:
+                    if nome and odd and odd > 1:
                         mapa[nome] = odd
 
                 if "betclic" in nome_bookmaker.lower():
+
                     betclic = mapa
 
                 else:
-                    outros.append(mapa)
+
+                    if mapa:
+                        outros.append(mapa)
 
         if not betclic:
             continue
 
-        # Precisamos de pelo menos algumas casas para comparar
-        if len(outros) < 3:
+        if len(outros) < MIN_BOOKMAKERS:
             continue
 
-        # -------------------------
-        # Guardar snapshot
-        # -------------------------
+        # ----------------------------------------------------
+        # AVALIAR CADA RESULTADO
+        # ----------------------------------------------------
 
-        for nome_aposta, odd in betclic.items():
-
-            cur.execute("""
-                INSERT INTO snapshots
-                (event_id, data_hora, jogo, bookmaker, aposta, odd)
-                VALUES (?, ?, ?, ?, ?, ?)
-            """, (
-                event_id,
-                agora.isoformat(),
-                nome_jogo,
-                "Betclic",
-                nome_aposta,
-                odd
-            ))
-
-        # -------------------------
-        # Avaliar cada seleção
-        # -------------------------
-
-        candidatos = []
+        opcoes = []
 
         for selecao, odd_betclic in betclic.items():
 
-            odds_mercado = []
+            odds_outros = []
 
             for mapa in outros:
 
@@ -296,67 +403,53 @@ def analisar():
                     odd = mapa[selecao]
 
                     if odd and odd > 1:
+                        odds_outros.append(odd)
 
-                        odds_mercado.append(odd)
-
-            if len(odds_mercado) < 3:
+            if len(odds_outros) < MIN_BOOKMAKERS:
                 continue
 
-            # Mediana das outras casas
-            odds_ordenadas = sorted(odds_mercado)
+            # Mediana do mercado
+            consenso_odd = statistics.median(odds_outros)
 
-            meio = len(odds_ordenadas) // 2
+            # Probabilidade de mercado
+            probabilidade = 1 / consenso_odd
 
-            if len(odds_ordenadas) % 2 == 0:
-                odd_consenso = (
-                    odds_ordenadas[meio - 1]
-                    + odds_ordenadas[meio]
-                ) / 2
-            else:
-                odd_consenso = odds_ordenadas[meio]
-
-            # Probabilidade implícita do consenso
-            prob_implicita = 1 / odd_consenso
-
-            # Value estimado
+            # Value contra Betclic
             value = (
-                odd_betclic * prob_implicita
+                odd_betclic * probabilidade
             ) - 1
 
-            # Aceitar apenas value positivo
-            if value <= 0:
+            if value < MIN_VALUE:
                 continue
 
             score = calcular_score(
                 value,
-                len(odds_mercado)
+                len(odds_outros)
             )
 
-            # Só queremos sinais fortes
-            if score < 70:
+            if score < MIN_SCORE:
                 continue
 
-            stake = calcular_stake(score)
-
-            candidatos.append({
+            opcoes.append({
                 "event_id": event_id,
                 "jogo": nome_jogo,
+                "home": home,
+                "away": away,
                 "aposta": selecao,
-                "odd": odd_betclic,
-                "probabilidade": prob_implicita,
-                "value": value,
+                "odd": round(odd_betclic, 2),
+                "probabilidade": round(probabilidade, 4),
+                "value": round(value, 4),
                 "score": score,
-                "stake": stake,
-                "data_jogo": inicio
+                "data_jogo": commence_time
             })
 
-        # -------------------------
-        # Escolher apenas o melhor
-        # -------------------------
+        # ----------------------------------------------------
+        # APENAS A MELHOR DO JOGO
+        # ----------------------------------------------------
 
-        if candidatos:
+        if opcoes:
 
-            candidatos.sort(
+            opcoes.sort(
                 key=lambda x: (
                     x["score"],
                     x["value"]
@@ -364,224 +457,463 @@ def analisar():
                 reverse=True
             )
 
-            melhor = candidatos[0]
+            candidatos.append(opcoes[0])
 
-            sinais.append(melhor)
-
-    conn.commit()
-
-    return sinais
+    return candidatos
 
 
-# =========================
-# GUARDAR SINAIS
-# =========================
+# ============================================================
+# GUARDAR SNAPSHOTS
+# ============================================================
 
-def guardar_sinais(sinais):
+def guardar_snapshots(dados, historico):
 
-    novos = []
+    agora = datetime.now(timezone.utc).isoformat()
 
-    for sinal in sinais:
+    for jogo in dados:
 
-        # Não repetir o mesmo jogo
-        cur.execute("""
-            SELECT COUNT(*)
-            FROM apostas_virtuais
-            WHERE event_id = ?
-            AND estado = 'PENDENTE'
-        """, (sinal["event_id"],))
+        event_id = jogo.get("id")
+        home = jogo.get("home_team")
+        away = jogo.get("away_team")
 
-        existe = cur.fetchone()[0]
-
-        if existe > 0:
+        if not event_id or not home or not away:
             continue
 
-        cur.execute("""
-            INSERT INTO apostas_virtuais
-            (
-                event_id,
-                data_hora,
-                jogo,
-                aposta,
-                odd,
-                probabilidade,
-                value,
-                score,
-                stake,
-                data_jogo,
-                estado
+        for bookmaker in jogo.get("bookmakers", []):
+
+            nome = bookmaker.get("title", "")
+
+            for mercado in bookmaker.get("markets", []):
+
+                if mercado.get("key") != "h2h":
+                    continue
+
+                for outcome in mercado.get("outcomes", []):
+
+                    historico["snapshots"].append({
+                        "event_id": event_id,
+                        "data_hora": agora,
+                        "jogo": f"{home} vs {away}",
+                        "bookmaker": nome,
+                        "aposta": outcome.get("name"),
+                        "odd": outcome.get("price")
+                    })
+
+    # Não deixar o ficheiro crescer infinitamente
+    if len(historico["snapshots"]) > 10000:
+        historico["snapshots"] = historico["snapshots"][-10000:]
+
+
+# ============================================================
+# GUARDAR NOVAS APOSTAS
+# ============================================================
+
+def guardar_apostas(candidatos, historico):
+
+    novas = []
+
+    banca = historico["banca_atual"]
+
+    for candidato in candidatos:
+
+        event_id = candidato["event_id"]
+
+        # Nunca mais de uma aposta pendente por jogo
+        existe = False
+
+        for aposta in historico["apostas"]:
+
+            if (
+                aposta.get("event_id") == event_id
+                and aposta.get("estado") == "PENDENTE"
+            ):
+                existe = True
+                break
+
+        if existe:
+            continue
+
+        stake = calcular_stake(
+            candidato["score"],
+            banca
+        )
+
+        if stake <= 0:
+            continue
+
+        aposta = {
+            "event_id": event_id,
+            "data_criacao": datetime.now(
+                timezone.utc
+            ).isoformat(),
+            "jogo": candidato["jogo"],
+            "home": candidato["home"],
+            "away": candidato["away"],
+            "aposta": candidato["aposta"],
+            "odd": candidato["odd"],
+            "probabilidade": candidato["probabilidade"],
+            "value": candidato["value"],
+            "score": candidato["score"],
+            "stake": stake,
+            "data_jogo": candidato["data_jogo"],
+            "estado": "PENDENTE",
+            "lucro": 0
+        }
+
+        historico["apostas"].append(aposta)
+
+        novas.append(aposta)
+
+        # Não comprometer mais do que a banca disponível
+        banca -= stake
+
+    return novas
+
+
+# ============================================================
+# LIQUIDAR APOSTAS
+# ============================================================
+
+def liquidar_apostas(resultados, historico):
+
+    alteradas = []
+
+    for resultado in resultados:
+
+        if not resultado.get("completed"):
+            continue
+
+        scores = resultado.get("scores")
+
+        if not scores:
+            continue
+
+        home = resultado.get("home_team")
+        away = resultado.get("away_team")
+        event_id = resultado.get("id")
+
+        if not event_id:
+            continue
+
+        # Determinar resultado
+        home_score = None
+        away_score = None
+
+        for score in scores:
+
+            nome = score.get("name")
+            valores = score.get("score")
+
+            if valores is None:
+                continue
+
+            try:
+                valor = int(valores)
+            except Exception:
+                continue
+
+            if nome == home:
+                home_score = valor
+
+            elif nome == away:
+                away_score = valor
+
+        if home_score is None or away_score is None:
+            continue
+
+        if home_score > away_score:
+            vencedor = home
+
+        elif away_score > home_score:
+            vencedor = away
+
+        else:
+            vencedor = "Draw"
+
+        for aposta in historico["apostas"]:
+
+            if aposta.get("estado") != "PENDENTE":
+                continue
+
+            if aposta.get("event_id") != event_id:
+                continue
+
+            stake = float(aposta["stake"])
+            odd = float(aposta["odd"])
+
+            if aposta["aposta"] == vencedor:
+
+                lucro = round(
+                    stake * (odd - 1),
+                    2
+                )
+
+                aposta["estado"] = "GANHA"
+                aposta["lucro"] = lucro
+
+                historico["banca_atual"] = round(
+                    historico["banca_atual"]
+                    + stake
+                    + lucro,
+                    2
+                )
+
+            else:
+
+                lucro = -stake
+
+                aposta["estado"] = "PERDIDA"
+                aposta["lucro"] = lucro
+
+                historico["banca_atual"] = round(
+                    historico["banca_atual"]
+                    + lucro,
+                    2
+                )
+
+            aposta["resultado"] = (
+                f"{home} {home_score}-{away_score} {away}"
             )
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'PENDENTE')
-        """, (
-            sinal["event_id"],
-            datetime.now(timezone.utc).isoformat(),
-            sinal["jogo"],
-            sinal["aposta"],
-            sinal["odd"],
-            sinal["probabilidade"],
-            sinal["value"],
-            sinal["score"],
-            sinal["stake"],
-            sinal["data_jogo"]
-        ))
 
-        novos.append(sinal)
+            alteradas.append(aposta)
 
-    conn.commit()
-
-    return novos
+    return alteradas
 
 
-# =========================
-# BALANÇO
-# =========================
+# ============================================================
+# ESTATÍSTICAS
+# ============================================================
 
-def obter_balanco():
+def estatisticas(historico):
 
-    cur.execute("""
-        SELECT COUNT(*)
-        FROM apostas_virtuais
-        WHERE estado = 'GANHA'
-    """)
+    ganhas = 0
+    perdidas = 0
+    pendentes = 0
+    lucro = 0
+    total_stakes = 0
 
-    ganhas = cur.fetchone()[0]
+    for aposta in historico["apostas"]:
 
-    cur.execute("""
-        SELECT COUNT(*)
-        FROM apostas_virtuais
-        WHERE estado = 'PERDIDA'
-    """)
+        estado = aposta.get("estado")
 
-    perdidas = cur.fetchone()[0]
+        if estado == "GANHA":
 
-    cur.execute("""
-        SELECT COUNT(*)
-        FROM apostas_virtuais
-        WHERE estado = 'PENDENTE'
-    """)
+            ganhas += 1
+            lucro += float(aposta.get("lucro", 0))
+            total_stakes += float(aposta.get("stake", 0))
 
-    pendentes = cur.fetchone()[0]
+        elif estado == "PERDIDA":
 
-    cur.execute("""
-        SELECT COALESCE(SUM(lucro), 0)
-        FROM apostas_virtuais
-        WHERE estado IN ('GANHA', 'PERDIDA')
-    """)
+            perdidas += 1
+            lucro += float(aposta.get("lucro", 0))
+            total_stakes += float(aposta.get("stake", 0))
 
-    lucro = cur.fetchone()[0]
+        elif estado == "PENDENTE":
+
+            pendentes += 1
 
     total = ganhas + perdidas
 
-    if total > 0:
-        acerto = (ganhas / total) * 100
+    if total:
+        acerto = ganhas / total * 100
     else:
         acerto = 0
 
-    if total > 0:
-        roi = (lucro / total) * 100
+    if total_stakes:
+        roi = lucro / total_stakes * 100
     else:
         roi = 0
 
-    return (
-        ganhas,
-        perdidas,
-        pendentes,
-        acerto,
-        lucro,
-        roi
-    )
+    return {
+        "ganhas": ganhas,
+        "perdidas": perdidas,
+        "pendentes": pendentes,
+        "lucro": round(lucro, 2),
+        "acerto": round(acerto, 1),
+        "roi": round(roi, 1),
+        "banca": round(
+            historico["banca_atual"],
+            2
+        )
+    }
 
 
-# =========================
-# MENSAGEM
-# =========================
+# ============================================================
+# MENSAGEM TELEGRAM
+# ============================================================
 
-def criar_mensagem(novos):
+def criar_mensagem(novas, liquidadas, stats):
 
     texto = "🧠 VALUE FOOTBALL BOT\n\n"
-    texto += "🇵🇹 LIGA PORTUGAL\n\n"
+    texto += "🇵🇹 LIGA PORTUGAL\n"
     texto += "🏦 BETCLIC\n\n"
 
-    if novos:
+    if novas:
 
-        texto += f"🔥 {len(novos)} novo(s) sinal(is)\n\n"
+        texto += (
+            f"🔥 {len(novas)} NOVA(S) "
+            f"OPORTUNIDADE(S)\n\n"
+        )
 
-        for sinal in novos:
-
-            data = sinal["data_jogo"]
+        for aposta in novas:
 
             try:
-                data_formatada = datetime.fromisoformat(
-                    data.replace("Z", "+00:00")
+
+                data = datetime.fromisoformat(
+                    aposta["data_jogo"]
+                    .replace("Z", "+00:00")
                 ).strftime("%d/%m %H:%M")
-            except:
-                data_formatada = data
 
-            texto += f"⚽ {sinal['jogo']}\n\n"
-            texto += f"🎯 {sinal['aposta']}\n"
-            texto += f"💰 Odd: {sinal['odd']:.2f}\n"
+            except Exception:
+
+                data = aposta["data_jogo"]
+
+            texto += f"⚽ {aposta['jogo']}\n"
+            texto += f"🎯 {aposta['aposta']}\n"
+            texto += f"🏦 Betclic @ {aposta['odd']:.2f}\n"
             texto += (
-                f"📊 Probabilidade: "
-                f"{sinal['probabilidade'] * 100:.1f}%\n"
+                f"📊 Prob. mercado: "
+                f"{aposta['probabilidade'] * 100:.1f}%\n"
             )
             texto += (
-                f"💎 Value: "
-                f"{sinal['value'] * 100:+.1f}%\n"
+                f"💎 Value estimado: "
+                f"{aposta['value'] * 100:+.1f}%\n"
             )
-            texto += f"⭐ Score: {sinal['score']}/100\n"
-            texto += f"💶 Stake virtual: €{sinal['stake']:.2f}\n"
-            texto += f"🗓️ {data_formatada}\n\n"
+            texto += (
+                f"⭐ Score: "
+                f"{aposta['score']}/100\n"
+            )
+            texto += (
+                f"💶 Stake virtual: "
+                f"€{aposta['stake']:.2f}\n"
+            )
+            texto += f"🗓️ {data}\n\n"
 
-    else:
+    if liquidadas:
 
-        texto += "🔎 Nenhum novo sinal encontrado.\n\n"
+        texto += "📋 RESULTADOS ATUALIZADOS\n\n"
 
-    (
-        ganhas,
-        perdidas,
-        pendentes,
-        acerto,
-        lucro,
-        roi
-    ) = obter_balanco()
+        for aposta in liquidadas:
+
+            if aposta["estado"] == "GANHA":
+                emoji = "🟢"
+            else:
+                emoji = "🔴"
+
+            texto += (
+                f"{emoji} {aposta['jogo']} — "
+                f"{aposta['aposta']}\n"
+            )
+
+            texto += (
+                f"💰 Resultado: "
+                f"€{aposta['lucro']:+.2f}\n\n"
+            )
+
+    if not novas and not liquidadas:
+
+        texto += (
+            "🔎 Nenhuma nova oportunidade "
+            "nesta análise.\n\n"
+        )
 
     texto += "📊 BALANÇO VIRTUAL\n\n"
-    texto += f"🟢 Ganhas: {ganhas}\n"
-    texto += f"🔴 Perdidas: {perdidas}\n"
-    texto += f"⚪ Pendentes: {pendentes}\n"
-    texto += f"🎯 Acerto: {acerto:.1f}%\n"
-    texto += f"💰 Lucro: €{lucro:.2f}\n"
-    texto += f"📈 ROI: {roi:.1f}%\n\n"
+    texto += f"🟢 Ganhas: {stats['ganhas']}\n"
+    texto += f"🔴 Perdidas: {stats['perdidas']}\n"
+    texto += f"⚪ Pendentes: {stats['pendentes']}\n"
+    texto += f"🎯 Acerto: {stats['acerto']:.1f}%\n"
+    texto += f"💰 Lucro: €{stats['lucro']:.2f}\n"
+    texto += f"📈 ROI: {stats['roi']:.1f}%\n"
+    texto += f"💼 Banca virtual: €{stats['banca']:.2f}\n\n"
 
     texto += "⚠️ MODO TESTE\n"
-    texto += "€1 virtual por sinal.\n"
-    texto += "Nenhum dinheiro real foi apostado."
+    texto += "Nenhuma aposta real foi efetuada."
 
     return texto
 
 
-# =========================
-# EXECUÇÃO
-# =========================
+# ============================================================
+# MAIN
+# ============================================================
 
-if __name__ == "__main__":
+def main():
+
+    print("===================================")
+    print("VALUE FOOTBALL BOT")
+    print("===================================")
 
     if not API_KEY:
         print("ERRO: ODDS_API_KEY não encontrada.")
-        raise SystemExit
+        return
 
     if not TELEGRAM_TOKEN:
-        print("ERRO: TELEGRAM_BOT_TOKEN não encontrado.")
-        raise SystemExit
+        print("ERRO: TELEGRAM_BOT_TOKEN não encontrada.")
+        return
 
-    sinais = analisar()
+    if not TELEGRAM_CHAT_ID:
+        print("ERRO: TELEGRAM_CHAT_ID não encontrada.")
+        return
 
-    novos = guardar_sinais(sinais)
+    historico = carregar_historico()
 
-    mensagem = criar_mensagem(novos)
+    # --------------------------------------------------------
+    # RESULTADOS
+    # --------------------------------------------------------
 
-    enviado = enviar_telegram(mensagem)
+    resultados = obter_resultados()
 
-    print("Novos sinais:", len(novos))
-    print("Telegram:", enviado)
+    liquidadas = liquidar_apostas(
+        resultados,
+        historico
+    )
+
+    # --------------------------------------------------------
+    # ODDS ATUAIS
+    # --------------------------------------------------------
+
+    jogos = obter_jogos()
+
+    guardar_snapshots(
+        jogos,
+        historico
+    )
+
+    candidatos = analisar_jogos(
+        jogos
+    )
+
+    novas = guardar_apostas(
+        candidatos,
+        historico
+    )
+
+    guardar_historico(
+        historico
+    )
+
+    # --------------------------------------------------------
+    # TELEGRAM
+    # --------------------------------------------------------
+
+    stats = estatisticas(
+        historico
+    )
+
+    mensagem = criar_mensagem(
+        novas,
+        liquidadas,
+        stats
+    )
+
+    enviar_telegram(
+        mensagem
+    )
+
+    print("Novas apostas:", len(novas))
+    print("Apostas liquidadas:", len(liquidadas))
+    print("Banca:", stats["banca"])
     print("Execução concluída.")
+
+
+if __name__ == "__main__":
+    main()
