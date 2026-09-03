@@ -259,13 +259,12 @@ def obter_modelo_estimador():
 
     try:
 
-        # Procuramos o ficheiro de jornada mais recente.
-        # Atualmente a época está na jornada 4.
+        # Procuramos a jornada mais recente disponível.
         for jornada in range(20, -1, -1):
 
             url = (
-             ESTIMADOR_URL
-                f"md{jornada:02d}.json"
+                ESTIMADOR_URL
+                + f"md{jornada:02d}.json"
             )
 
             resposta = requests.get(
@@ -478,10 +477,6 @@ def calcular_probabilidade_modelo(
     if prob_estimador <= 0:
         return None
 
-    # --------------------------------------------------------
-    # Ajuste ligeiro pela força das equipas
-    # --------------------------------------------------------
-
     h = forcas.get(
         normalizar_nome(home),
         {}
@@ -519,10 +514,6 @@ def calcular_probabilidade_modelo(
         + defesa_away
     )
 
-    # Pequeno ajuste.
-    # Não queremos deixar as forças
-    # dominarem o modelo.
-
     ajuste = max(
         -0.08,
         min(
@@ -546,10 +537,6 @@ def calcular_probabilidade_modelo(
         )
 
     else:
-
-        # No empate reduzimos ligeiramente
-        # quando existe uma diferença muito
-        # grande entre as equipas.
 
         prob = (
             prob_estimador
@@ -578,8 +565,6 @@ def calcular_score(
 
     score = 50
 
-    # VALUE
-
     if value >= 0.05:
         score += 10
 
@@ -592,15 +577,11 @@ def calcular_score(
     if value >= 0.18:
         score += 5
 
-    # PROBABILIDADE
-
     if prob_modelo >= 0.50:
         score += 10
 
     elif prob_modelo >= 0.35:
         score += 5
-
-    # DIFERENÇA ENTRE MODELO E MERCADO
 
     diferenca = (
         prob_modelo
@@ -612,8 +593,6 @@ def calcular_score(
 
     if diferenca >= 0.10:
         score += 5
-
-    # LIQUIDEZ
 
     if casas >= 5:
         score += 5
@@ -640,23 +619,18 @@ def calcular_stake(
         return 0
 
     if score >= 90:
-
         percentagem = 0.08
 
     elif score >= 85:
-
         percentagem = 0.065
 
     elif score >= 80:
-
         percentagem = 0.05
 
     elif score >= 75:
-
         percentagem = 0.035
 
     else:
-
         percentagem = 0.025
 
     stake = (
@@ -1083,7 +1057,6 @@ def guardar_apostas(
 
         existe = False
 
-        # UMA aposta máxima por jogo
         for aposta in historico[
             "apostas"
         ]:
