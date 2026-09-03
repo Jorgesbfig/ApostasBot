@@ -3,15 +3,23 @@ name: ApostasBot
 on:
   schedule:
     - cron: "0 */6 * * *"
+
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   run-bot:
+
     runs-on: ubuntu-latest
 
     steps:
+
       - name: Ir buscar o código
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Configurar Python
         uses: actions/setup-python@v5
@@ -22,8 +30,25 @@ jobs:
         run: |
           pip install requests
 
-      - name: Executar bot
+      - name: Executar Value Football Bot
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-        run: python bot.py
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python bot.py
+
+      - name: Guardar histórico
+        run: |
+
+          git config user.name "Value Football Bot"
+          git config user.email "actions@github.com"
+
+          git add historico.json
+
+          if git diff --cached --quiet; then
+            echo "Sem alterações no histórico."
+          else
+            git commit -m "Atualizar histórico do bot"
+            git push
+          fi
