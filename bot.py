@@ -264,7 +264,7 @@ def obter_modelo_estimador():
         for jornada in range(20, -1, -1):
 
             url = (
-                ESTIMADOR_URL
+             ESTIMADOR_URL
                 f"md{jornada:02d}.json"
             )
 
