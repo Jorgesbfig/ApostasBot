@@ -1,6 +1,6 @@
 {
   "banca_inicial": 20.0,
-  "banca_atual": 15.46,
+  "banca_atual": 18.0,
   "apostas": [
     {
       "event_id": "ee24c3996382303b332efd348e2fb618",
@@ -153,9 +153,10 @@
       "score": 85,
       "stake": 0.94,
       "data_jogo": "2026-09-20T19:30:00Z",
-      "estado": "PENDENTE",
-      "stake_reservada": true,
-      "lucro": 0
+      "estado": "GANHA",
+      "stake_reservada": false,
+      "lucro": 1.6,
+      "resultado": "FC Porto 3-1 Benfica"
     },
     {
       "event_id": "f5c978d59b05fab4498d82a55005855f",
