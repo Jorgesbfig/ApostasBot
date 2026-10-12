@@ -241,486 +241,6 @@
   ],
   "snapshots": [
     {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Betclic (FR)",
-      "aposta": "Draw",
-      "odd": 3.1
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Winamax (DE)",
-      "aposta": "Casa Pia",
-      "odd": 4.0
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Winamax (DE)",
-      "aposta": "Santa Clara",
-      "odd": 1.78
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Winamax (DE)",
-      "aposta": "Draw",
-      "odd": 3.05
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Winamax (FR)",
-      "aposta": "Casa Pia",
-      "odd": 3.95
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Winamax (FR)",
-      "aposta": "Santa Clara",
-      "odd": 1.76
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Winamax (FR)",
-      "aposta": "Draw",
-      "odd": 3.0
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "888sport",
-      "aposta": "Casa Pia",
-      "odd": 4.2
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "888sport",
-      "aposta": "Santa Clara",
-      "odd": 1.85
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "888sport",
-      "aposta": "Draw",
-      "odd": 3.1
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "William Hill",
-      "aposta": "Casa Pia",
-      "odd": 4.2
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "William Hill",
-      "aposta": "Santa Clara",
-      "odd": 1.85
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "William Hill",
-      "aposta": "Draw",
-      "odd": 3.1
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Marathon Bet",
-      "aposta": "Casa Pia",
-      "odd": 4.25
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Marathon Bet",
-      "aposta": "Santa Clara",
-      "odd": 1.88
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Marathon Bet",
-      "aposta": "Draw",
-      "odd": 3.25
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Pinnacle",
-      "aposta": "Casa Pia",
-      "odd": 4.31
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Pinnacle",
-      "aposta": "Santa Clara",
-      "odd": 1.93
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Pinnacle",
-      "aposta": "Draw",
-      "odd": 3.31
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Nordic Bet",
-      "aposta": "Casa Pia",
-      "odd": 4.4
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Nordic Bet",
-      "aposta": "Santa Clara",
-      "odd": 1.88
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Nordic Bet",
-      "aposta": "Draw",
-      "odd": 3.15
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Tipico",
-      "aposta": "Casa Pia",
-      "odd": 4.7
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Tipico",
-      "aposta": "Santa Clara",
-      "odd": 1.8
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Tipico",
-      "aposta": "Draw",
-      "odd": 3.3
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Betsson",
-      "aposta": "Casa Pia",
-      "odd": 4.4
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Betsson",
-      "aposta": "Santa Clara",
-      "odd": 1.88
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Betsson",
-      "aposta": "Draw",
-      "odd": 3.15
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Unibet (NL)",
-      "aposta": "Casa Pia",
-      "odd": 3.75
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Unibet (NL)",
-      "aposta": "Santa Clara",
-      "odd": 1.93
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Unibet (NL)",
-      "aposta": "Draw",
-      "odd": 3.05
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "LeoVegas (SE)",
-      "aposta": "Casa Pia",
-      "odd": 3.75
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "LeoVegas (SE)",
-      "aposta": "Santa Clara",
-      "odd": 1.92
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "LeoVegas (SE)",
-      "aposta": "Draw",
-      "odd": 3.05
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Unibet (SE)",
-      "aposta": "Casa Pia",
-      "odd": 3.75
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Unibet (SE)",
-      "aposta": "Santa Clara",
-      "odd": 1.93
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Unibet (SE)",
-      "aposta": "Draw",
-      "odd": 3.05
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Betfair",
-      "aposta": "Casa Pia",
-      "odd": 4.0
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Betfair",
-      "aposta": "Santa Clara",
-      "odd": 1.84
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "Betfair",
-      "aposta": "Draw",
-      "odd": 3.1
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "GTbets",
-      "aposta": "Casa Pia",
-      "odd": 4.49
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "GTbets",
-      "aposta": "Santa Clara",
-      "odd": 1.88
-    },
-    {
-      "event_id": "710dd3ffd365c610f1969a86cd70e074",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "Casa Pia vs Santa Clara",
-      "bookmaker": "GTbets",
-      "aposta": "Draw",
-      "odd": 3.27
-    },
-    {
-      "event_id": "d9bfec13c112810701ee7e60f02bffa5",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "CS Maritimo vs FC Porto",
-      "bookmaker": "Unibet (FR)",
-      "aposta": "CS Maritimo",
-      "odd": 7.4
-    },
-    {
-      "event_id": "d9bfec13c112810701ee7e60f02bffa5",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "CS Maritimo vs FC Porto",
-      "bookmaker": "Unibet (FR)",
-      "aposta": "FC Porto",
-      "odd": 1.26
-    },
-    {
-      "event_id": "d9bfec13c112810701ee7e60f02bffa5",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "CS Maritimo vs FC Porto",
-      "bookmaker": "Unibet (FR)",
-      "aposta": "Draw",
-      "odd": 4.45
-    },
-    {
-      "event_id": "d9bfec13c112810701ee7e60f02bffa5",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "CS Maritimo vs FC Porto",
-      "bookmaker": "Winamax (DE)",
-      "aposta": "CS Maritimo",
-      "odd": 6.75
-    },
-    {
-      "event_id": "d9bfec13c112810701ee7e60f02bffa5",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "CS Maritimo vs FC Porto",
-      "bookmaker": "Winamax (DE)",
-      "aposta": "FC Porto",
-      "odd": 1.31
-    },
-    {
-      "event_id": "d9bfec13c112810701ee7e60f02bffa5",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "CS Maritimo vs FC Porto",
-      "bookmaker": "Winamax (DE)",
-      "aposta": "Draw",
-      "odd": 4.5
-    },
-    {
-      "event_id": "d9bfec13c112810701ee7e60f02bffa5",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "CS Maritimo vs FC Porto",
-      "bookmaker": "888sport",
-      "aposta": "CS Maritimo",
-      "odd": 8.0
-    },
-    {
-      "event_id": "d9bfec13c112810701ee7e60f02bffa5",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "CS Maritimo vs FC Porto",
-      "bookmaker": "888sport",
-      "aposta": "FC Porto",
-      "odd": 1.33
-    },
-    {
-      "event_id": "d9bfec13c112810701ee7e60f02bffa5",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "CS Maritimo vs FC Porto",
-      "bookmaker": "888sport",
-      "aposta": "Draw",
-      "odd": 4.8
-    },
-    {
-      "event_id": "d9bfec13c112810701ee7e60f02bffa5",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "CS Maritimo vs FC Porto",
-      "bookmaker": "Winamax (FR)",
-      "aposta": "CS Maritimo",
-      "odd": 6.5
-    },
-    {
-      "event_id": "d9bfec13c112810701ee7e60f02bffa5",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "CS Maritimo vs FC Porto",
-      "bookmaker": "Winamax (FR)",
-      "aposta": "FC Porto",
-      "odd": 1.29
-    },
-    {
-      "event_id": "d9bfec13c112810701ee7e60f02bffa5",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "CS Maritimo vs FC Porto",
-      "bookmaker": "Winamax (FR)",
-      "aposta": "Draw",
-      "odd": 4.3
-    },
-    {
-      "event_id": "d9bfec13c112810701ee7e60f02bffa5",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "CS Maritimo vs FC Porto",
-      "bookmaker": "Betclic (FR)",
-      "aposta": "CS Maritimo",
-      "odd": 7.75
-    },
-    {
-      "event_id": "d9bfec13c112810701ee7e60f02bffa5",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "CS Maritimo vs FC Porto",
-      "bookmaker": "Betclic (FR)",
-      "aposta": "FC Porto",
-      "odd": 1.3
-    },
-    {
-      "event_id": "d9bfec13c112810701ee7e60f02bffa5",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "CS Maritimo vs FC Porto",
-      "bookmaker": "Betclic (FR)",
-      "aposta": "Draw",
-      "odd": 4.55
-    },
-    {
-      "event_id": "d9bfec13c112810701ee7e60f02bffa5",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "CS Maritimo vs FC Porto",
-      "bookmaker": "William Hill",
-      "aposta": "CS Maritimo",
-      "odd": 8.0
-    },
-    {
-      "event_id": "d9bfec13c112810701ee7e60f02bffa5",
-      "data_hora": "2026-10-04T03:34:28.308090+00:00",
-      "jogo": "CS Maritimo vs FC Porto",
-      "bookmaker": "William Hill",
-      "aposta": "FC Porto",
-      "odd": 1.35
-    },
-    {
       "event_id": "d9bfec13c112810701ee7e60f02bffa5",
       "data_hora": "2026-10-04T03:34:28.308090+00:00",
       "jogo": "CS Maritimo vs FC Porto",
@@ -80239,6 +79759,486 @@
       "bookmaker": "Matchbook",
       "aposta": "Draw",
       "odd": 3.55
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Coolbet",
+      "aposta": "Alverca",
+      "odd": 4.3
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Coolbet",
+      "aposta": "Famalicão",
+      "odd": 1.87
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Coolbet",
+      "aposta": "Draw",
+      "odd": 3.5
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "William Hill",
+      "aposta": "Alverca",
+      "odd": 4.0
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "William Hill",
+      "aposta": "Famalicão",
+      "odd": 1.85
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "William Hill",
+      "aposta": "Draw",
+      "odd": 3.4
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "888sport",
+      "aposta": "Alverca",
+      "odd": 4.0
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "888sport",
+      "aposta": "Famalicão",
+      "odd": 1.85
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "888sport",
+      "aposta": "Draw",
+      "odd": 3.4
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Alverca",
+      "odd": 3.95
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Famalicão",
+      "odd": 1.82
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Draw",
+      "odd": 3.3
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Alverca",
+      "odd": 3.85
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Famalicão",
+      "odd": 1.8
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Draw",
+      "odd": 3.2
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Alverca",
+      "odd": 4.15
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Famalicão",
+      "odd": 1.81
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Draw",
+      "odd": 3.25
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Alverca",
+      "odd": 4.1
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Famalicão",
+      "odd": 1.74
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Unibet (FR)",
+      "aposta": "Draw",
+      "odd": 3.2
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Pinnacle",
+      "aposta": "Alverca",
+      "odd": 4.67
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Pinnacle",
+      "aposta": "Famalicão",
+      "odd": 1.88
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Pinnacle",
+      "aposta": "Draw",
+      "odd": 3.37
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Alverca",
+      "odd": 4.25
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Famalicão",
+      "odd": 1.88
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Draw",
+      "odd": 3.2
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Tipico",
+      "aposta": "Alverca",
+      "odd": 4.5
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Tipico",
+      "aposta": "Famalicão",
+      "odd": 1.83
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Tipico",
+      "aposta": "Draw",
+      "odd": 3.3
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Alverca",
+      "odd": 4.25
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Famalicão",
+      "odd": 1.82
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Draw",
+      "odd": 3.54
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Betsson",
+      "aposta": "Alverca",
+      "odd": 4.25
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Betsson",
+      "aposta": "Famalicão",
+      "odd": 1.88
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Betsson",
+      "aposta": "Draw",
+      "odd": 3.2
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "GTbets",
+      "aposta": "Alverca",
+      "odd": 4.53
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "GTbets",
+      "aposta": "Famalicão",
+      "odd": 1.81
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "GTbets",
+      "aposta": "Draw",
+      "odd": 3.46
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Alverca",
+      "odd": 4.1
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Famalicão",
+      "odd": 1.77
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Draw",
+      "odd": 3.25
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Alverca",
+      "odd": 4.1
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Famalicão",
+      "odd": 1.76
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Draw",
+      "odd": 3.25
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Alverca",
+      "odd": 4.1
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Famalicão",
+      "odd": 1.74
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Draw",
+      "odd": 3.2
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Alverca",
+      "odd": 4.1
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Famalicão",
+      "odd": 1.77
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Draw",
+      "odd": 3.25
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "BetOnline.ag",
+      "aposta": "Alverca",
+      "odd": 4.5
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "BetOnline.ag",
+      "aposta": "Famalicão",
+      "odd": 1.89
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "BetOnline.ag",
+      "aposta": "Draw",
+      "odd": 3.3
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Betfair",
+      "aposta": "Alverca",
+      "odd": 4.8
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Betfair",
+      "aposta": "Famalicão",
+      "odd": 1.96
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Betfair",
+      "aposta": "Draw",
+      "odd": 3.45
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Matchbook",
+      "aposta": "Alverca",
+      "odd": 4.8
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Matchbook",
+      "aposta": "Famalicão",
+      "odd": 1.96
+    },
+    {
+      "event_id": "789c3dd95a7fcef675ce5a40b07371a2",
+      "data_hora": "2026-10-12T03:29:47.997007+00:00",
+      "jogo": "Famalicão vs Alverca",
+      "bookmaker": "Matchbook",
+      "aposta": "Draw",
+      "odd": 3.45
     }
   ]
 }
