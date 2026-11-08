@@ -1,6 +1,6 @@
 {
   "banca_inicial": 20.0,
-  "banca_atual": 16.44,
+  "banca_atual": 18.26,
   "apostas": [
     {
       "event_id": "ee24c3996382303b332efd348e2fb618",
@@ -272,708 +272,13 @@
       "score": 85,
       "stake": 1.14,
       "data_jogo": "2026-11-08T18:00:00Z",
-      "estado": "PENDENTE",
-      "stake_reservada": true,
-      "lucro": 0
+      "estado": "GANHA",
+      "stake_reservada": false,
+      "lucro": 0.68,
+      "resultado": "Vitória SC 1-2 FC Porto"
     }
   ],
   "snapshots": [
-    {
-      "event_id": "fd5c6a92f2448c1cfe7a2d9b8075172b",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Arouca vs Nacional",
-      "bookmaker": "Marathon Bet",
-      "aposta": "Draw",
-      "odd": 3.96
-    },
-    {
-      "event_id": "fd5c6a92f2448c1cfe7a2d9b8075172b",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Arouca vs Nacional",
-      "bookmaker": "888sport",
-      "aposta": "Arouca",
-      "odd": 1.61
-    },
-    {
-      "event_id": "fd5c6a92f2448c1cfe7a2d9b8075172b",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Arouca vs Nacional",
-      "bookmaker": "888sport",
-      "aposta": "Nacional",
-      "odd": 4.8
-    },
-    {
-      "event_id": "fd5c6a92f2448c1cfe7a2d9b8075172b",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Arouca vs Nacional",
-      "bookmaker": "888sport",
-      "aposta": "Draw",
-      "odd": 3.8
-    },
-    {
-      "event_id": "fd5c6a92f2448c1cfe7a2d9b8075172b",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Arouca vs Nacional",
-      "bookmaker": "William Hill",
-      "aposta": "Arouca",
-      "odd": 1.62
-    },
-    {
-      "event_id": "fd5c6a92f2448c1cfe7a2d9b8075172b",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Arouca vs Nacional",
-      "bookmaker": "William Hill",
-      "aposta": "Nacional",
-      "odd": 4.8
-    },
-    {
-      "event_id": "fd5c6a92f2448c1cfe7a2d9b8075172b",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Arouca vs Nacional",
-      "bookmaker": "William Hill",
-      "aposta": "Draw",
-      "odd": 3.8
-    },
-    {
-      "event_id": "fd5c6a92f2448c1cfe7a2d9b8075172b",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Arouca vs Nacional",
-      "bookmaker": "Tipico",
-      "aposta": "Arouca",
-      "odd": 1.55
-    },
-    {
-      "event_id": "fd5c6a92f2448c1cfe7a2d9b8075172b",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Arouca vs Nacional",
-      "bookmaker": "Tipico",
-      "aposta": "Nacional",
-      "odd": 5.7
-    },
-    {
-      "event_id": "fd5c6a92f2448c1cfe7a2d9b8075172b",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Arouca vs Nacional",
-      "bookmaker": "Tipico",
-      "aposta": "Draw",
-      "odd": 4.0
-    },
-    {
-      "event_id": "fd5c6a92f2448c1cfe7a2d9b8075172b",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Arouca vs Nacional",
-      "bookmaker": "GTbets",
-      "aposta": "Arouca",
-      "odd": 1.64
-    },
-    {
-      "event_id": "fd5c6a92f2448c1cfe7a2d9b8075172b",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Arouca vs Nacional",
-      "bookmaker": "GTbets",
-      "aposta": "Nacional",
-      "odd": 5.08
-    },
-    {
-      "event_id": "fd5c6a92f2448c1cfe7a2d9b8075172b",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Arouca vs Nacional",
-      "bookmaker": "GTbets",
-      "aposta": "Draw",
-      "odd": 3.95
-    },
-    {
-      "event_id": "fd5c6a92f2448c1cfe7a2d9b8075172b",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Arouca vs Nacional",
-      "bookmaker": "Betsson",
-      "aposta": "Arouca",
-      "odd": 1.58
-    },
-    {
-      "event_id": "fd5c6a92f2448c1cfe7a2d9b8075172b",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Arouca vs Nacional",
-      "bookmaker": "Betsson",
-      "aposta": "Nacional",
-      "odd": 5.4
-    },
-    {
-      "event_id": "fd5c6a92f2448c1cfe7a2d9b8075172b",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Arouca vs Nacional",
-      "bookmaker": "Betsson",
-      "aposta": "Draw",
-      "odd": 3.85
-    },
-    {
-      "event_id": "fd5c6a92f2448c1cfe7a2d9b8075172b",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Arouca vs Nacional",
-      "bookmaker": "Nordic Bet",
-      "aposta": "Arouca",
-      "odd": 1.58
-    },
-    {
-      "event_id": "fd5c6a92f2448c1cfe7a2d9b8075172b",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Arouca vs Nacional",
-      "bookmaker": "Nordic Bet",
-      "aposta": "Nacional",
-      "odd": 5.4
-    },
-    {
-      "event_id": "fd5c6a92f2448c1cfe7a2d9b8075172b",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Arouca vs Nacional",
-      "bookmaker": "Nordic Bet",
-      "aposta": "Draw",
-      "odd": 3.85
-    },
-    {
-      "event_id": "fd5c6a92f2448c1cfe7a2d9b8075172b",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Arouca vs Nacional",
-      "bookmaker": "Betfair",
-      "aposta": "Arouca",
-      "odd": 1.66
-    },
-    {
-      "event_id": "fd5c6a92f2448c1cfe7a2d9b8075172b",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Arouca vs Nacional",
-      "bookmaker": "Betfair",
-      "aposta": "Nacional",
-      "odd": 6.0
-    },
-    {
-      "event_id": "fd5c6a92f2448c1cfe7a2d9b8075172b",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Arouca vs Nacional",
-      "bookmaker": "Betfair",
-      "aposta": "Draw",
-      "odd": 4.2
-    },
-    {
-      "event_id": "fd5c6a92f2448c1cfe7a2d9b8075172b",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Arouca vs Nacional",
-      "bookmaker": "BetOnline.ag",
-      "aposta": "Arouca",
-      "odd": 1.61
-    },
-    {
-      "event_id": "fd5c6a92f2448c1cfe7a2d9b8075172b",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Arouca vs Nacional",
-      "bookmaker": "BetOnline.ag",
-      "aposta": "Nacional",
-      "odd": 5.2
-    },
-    {
-      "event_id": "fd5c6a92f2448c1cfe7a2d9b8075172b",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Arouca vs Nacional",
-      "bookmaker": "BetOnline.ag",
-      "aposta": "Draw",
-      "odd": 4.0
-    },
-    {
-      "event_id": "fd5c6a92f2448c1cfe7a2d9b8075172b",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Arouca vs Nacional",
-      "bookmaker": "Matchbook",
-      "aposta": "Arouca",
-      "odd": 1.66
-    },
-    {
-      "event_id": "fd5c6a92f2448c1cfe7a2d9b8075172b",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Arouca vs Nacional",
-      "bookmaker": "Matchbook",
-      "aposta": "Nacional",
-      "odd": 6.0
-    },
-    {
-      "event_id": "fd5c6a92f2448c1cfe7a2d9b8075172b",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Arouca vs Nacional",
-      "bookmaker": "Matchbook",
-      "aposta": "Draw",
-      "odd": 4.2
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Unibet (SE)",
-      "aposta": "Académico de Viseu",
-      "odd": 1.75
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Unibet (SE)",
-      "aposta": "Rio Ave FC",
-      "odd": 4.1
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Unibet (SE)",
-      "aposta": "Draw",
-      "odd": 3.25
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "PMU (FR)",
-      "aposta": "Académico de Viseu",
-      "odd": 1.73
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "PMU (FR)",
-      "aposta": "Rio Ave FC",
-      "odd": 4.1
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "PMU (FR)",
-      "aposta": "Draw",
-      "odd": 3.2
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Unibet (NL)",
-      "aposta": "Académico de Viseu",
-      "odd": 1.75
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Unibet (NL)",
-      "aposta": "Rio Ave FC",
-      "odd": 4.1
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Unibet (NL)",
-      "aposta": "Draw",
-      "odd": 3.25
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "LeoVegas (SE)",
-      "aposta": "Académico de Viseu",
-      "odd": 1.75
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "LeoVegas (SE)",
-      "aposta": "Rio Ave FC",
-      "odd": 4.1
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "LeoVegas (SE)",
-      "aposta": "Draw",
-      "odd": 3.25
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Unibet (FR)",
-      "aposta": "Académico de Viseu",
-      "odd": 1.67
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Unibet (FR)",
-      "aposta": "Rio Ave FC",
-      "odd": 3.9
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Unibet (FR)",
-      "aposta": "Draw",
-      "odd": 3.4
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Betclic (FR)",
-      "aposta": "Académico de Viseu",
-      "odd": 1.77
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Betclic (FR)",
-      "aposta": "Rio Ave FC",
-      "odd": 4.05
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Betclic (FR)",
-      "aposta": "Draw",
-      "odd": 3.5
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Winamax (DE)",
-      "aposta": "Académico de Viseu",
-      "odd": 1.8
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Winamax (DE)",
-      "aposta": "Rio Ave FC",
-      "odd": 3.85
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Winamax (DE)",
-      "aposta": "Draw",
-      "odd": 3.55
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Winamax (FR)",
-      "aposta": "Académico de Viseu",
-      "odd": 1.74
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Winamax (FR)",
-      "aposta": "Rio Ave FC",
-      "odd": 3.65
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Winamax (FR)",
-      "aposta": "Draw",
-      "odd": 3.35
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Pinnacle",
-      "aposta": "Académico de Viseu",
-      "odd": 1.87
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Pinnacle",
-      "aposta": "Rio Ave FC",
-      "odd": 4.49
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Pinnacle",
-      "aposta": "Draw",
-      "odd": 3.65
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Coolbet",
-      "aposta": "Académico de Viseu",
-      "odd": 1.87
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Coolbet",
-      "aposta": "Rio Ave FC",
-      "odd": 4.0
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Coolbet",
-      "aposta": "Draw",
-      "odd": 3.6
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Marathon Bet",
-      "aposta": "Académico de Viseu",
-      "odd": 1.83
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Marathon Bet",
-      "aposta": "Rio Ave FC",
-      "odd": 4.1
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Marathon Bet",
-      "aposta": "Draw",
-      "odd": 3.52
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "888sport",
-      "aposta": "Académico de Viseu",
-      "odd": 1.85
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "888sport",
-      "aposta": "Rio Ave FC",
-      "odd": 4.0
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "888sport",
-      "aposta": "Draw",
-      "odd": 3.4
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "William Hill",
-      "aposta": "Académico de Viseu",
-      "odd": 1.85
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "William Hill",
-      "aposta": "Rio Ave FC",
-      "odd": 4.0
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "William Hill",
-      "aposta": "Draw",
-      "odd": 3.4
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Tipico",
-      "aposta": "Académico de Viseu",
-      "odd": 1.77
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Tipico",
-      "aposta": "Rio Ave FC",
-      "odd": 4.4
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Tipico",
-      "aposta": "Draw",
-      "odd": 3.6
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "GTbets",
-      "aposta": "Académico de Viseu",
-      "odd": 1.85
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "GTbets",
-      "aposta": "Rio Ave FC",
-      "odd": 4.15
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "GTbets",
-      "aposta": "Draw",
-      "odd": 3.66
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Betsson",
-      "aposta": "Académico de Viseu",
-      "odd": 1.82
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Betsson",
-      "aposta": "Rio Ave FC",
-      "odd": 4.1
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Betsson",
-      "aposta": "Draw",
-      "odd": 3.45
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Nordic Bet",
-      "aposta": "Académico de Viseu",
-      "odd": 1.82
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Nordic Bet",
-      "aposta": "Rio Ave FC",
-      "odd": 4.1
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Nordic Bet",
-      "aposta": "Draw",
-      "odd": 3.45
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Betfair",
-      "aposta": "Académico de Viseu",
-      "odd": 1.91
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Betfair",
-      "aposta": "Rio Ave FC",
-      "odd": 4.8
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Betfair",
-      "aposta": "Draw",
-      "odd": 3.65
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "BetOnline.ag",
-      "aposta": "Académico de Viseu",
-      "odd": 1.89
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "BetOnline.ag",
-      "aposta": "Rio Ave FC",
-      "odd": 4.1
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "BetOnline.ag",
-      "aposta": "Draw",
-      "odd": 3.6
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Matchbook",
-      "aposta": "Académico de Viseu",
-      "odd": 1.91
-    },
-    {
-      "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
-      "data_hora": "2026-11-01T12:24:10.212393+00:00",
-      "jogo": "Académico de Viseu vs Rio Ave FC",
-      "bookmaker": "Matchbook",
-      "aposta": "Rio Ave FC",
-      "odd": 4.8
-    },
     {
       "event_id": "ce5c2cbdf5db2a13f40f528d3e5044b9",
       "data_hora": "2026-11-01T12:24:10.212393+00:00",
@@ -80277,6 +79582,702 @@
       "bookmaker": "Matchbook",
       "aposta": "Draw",
       "odd": 4.6
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Benfica",
+      "odd": 1.05
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "CF Estrela",
+      "odd": 35.0
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Draw",
+      "odd": 10.0
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Benfica",
+      "odd": 1.05
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "CF Estrela",
+      "odd": 35.0
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Draw",
+      "odd": 10.0
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Benfica",
+      "odd": 1.02
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "CF Estrela",
+      "odd": 19.5
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Draw",
+      "odd": 7.5
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Benfica",
+      "odd": 1.03
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "CF Estrela",
+      "odd": 34.0
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Draw",
+      "odd": 9.0
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Benfica",
+      "odd": 1.04
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "CF Estrela",
+      "odd": 34.0
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Draw",
+      "odd": 9.5
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Coolbet",
+      "aposta": "Benfica",
+      "odd": 1.09
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Coolbet",
+      "aposta": "CF Estrela",
+      "odd": 44.0
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Coolbet",
+      "aposta": "Draw",
+      "odd": 10.0
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Betsson",
+      "aposta": "Benfica",
+      "odd": 1.04
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Betsson",
+      "aposta": "CF Estrela",
+      "odd": 30.0
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Betsson",
+      "aposta": "Draw",
+      "odd": 9.1
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Benfica",
+      "odd": 1.04
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Nordic Bet",
+      "aposta": "CF Estrela",
+      "odd": 30.0
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Draw",
+      "odd": 9.1
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Benfica",
+      "odd": 1.03
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Marathon Bet",
+      "aposta": "CF Estrela",
+      "odd": 29.0
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Draw",
+      "odd": 9.7
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Tipico",
+      "aposta": "Benfica",
+      "odd": 1.03
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Tipico",
+      "aposta": "CF Estrela",
+      "odd": 40.0
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Tipico",
+      "aposta": "Draw",
+      "odd": 11.0
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "888sport",
+      "aposta": "Benfica",
+      "odd": 1.08
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "888sport",
+      "aposta": "CF Estrela",
+      "odd": 29.0
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "888sport",
+      "aposta": "Draw",
+      "odd": 9.0
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Betfair",
+      "aposta": "Benfica",
+      "odd": 1.1
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Betfair",
+      "aposta": "CF Estrela",
+      "odd": 60.0
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Betfair",
+      "aposta": "Draw",
+      "odd": 12.5
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Matchbook",
+      "aposta": "Benfica",
+      "odd": 1.1
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Matchbook",
+      "aposta": "CF Estrela",
+      "odd": 65.0
+    },
+    {
+      "event_id": "c02a3d0a40d536e48bb60dffe0e3cd1e",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "CF Estrela vs Benfica",
+      "bookmaker": "Matchbook",
+      "aposta": "Draw",
+      "odd": 12.0
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Braga",
+      "odd": 1.78
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Rio Ave FC",
+      "odd": 5.75
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Unibet (NL)",
+      "aposta": "Draw",
+      "odd": 2.75
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Braga",
+      "odd": 1.67
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Rio Ave FC",
+      "odd": 5.4
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "LeoVegas (SE)",
+      "aposta": "Draw",
+      "odd": 2.6
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Braga",
+      "odd": 1.78
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Rio Ave FC",
+      "odd": 5.75
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Unibet (SE)",
+      "aposta": "Draw",
+      "odd": 2.75
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Braga",
+      "odd": 1.67
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Rio Ave FC",
+      "odd": 5.4
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "PMU (FR)",
+      "aposta": "Draw",
+      "odd": 2.6
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Braga",
+      "odd": 1.7
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Rio Ave FC",
+      "odd": 5.6
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Betclic (FR)",
+      "aposta": "Draw",
+      "odd": 2.53
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Braga",
+      "odd": 1.8
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Rio Ave FC",
+      "odd": 6.3
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Nordic Bet",
+      "aposta": "Draw",
+      "odd": 2.65
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Betsson",
+      "aposta": "Braga",
+      "odd": 1.8
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Betsson",
+      "aposta": "Rio Ave FC",
+      "odd": 6.3
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Betsson",
+      "aposta": "Draw",
+      "odd": 2.65
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Coolbet",
+      "aposta": "Braga",
+      "odd": 1.9
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Coolbet",
+      "aposta": "Rio Ave FC",
+      "odd": 6.25
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Coolbet",
+      "aposta": "Draw",
+      "odd": 2.85
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Pinnacle",
+      "aposta": "Braga",
+      "odd": 1.92
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Pinnacle",
+      "aposta": "Rio Ave FC",
+      "odd": 6.07
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Pinnacle",
+      "aposta": "Draw",
+      "odd": 2.7
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Braga",
+      "odd": 1.82
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Rio Ave FC",
+      "odd": 5.4
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Marathon Bet",
+      "aposta": "Draw",
+      "odd": 2.68
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "888sport",
+      "aposta": "Braga",
+      "odd": 1.73
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "888sport",
+      "aposta": "Rio Ave FC",
+      "odd": 5.75
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "888sport",
+      "aposta": "Draw",
+      "odd": 2.9
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Braga",
+      "odd": 1.7
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Rio Ave FC",
+      "odd": 5.2
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Winamax (FR)",
+      "aposta": "Draw",
+      "odd": 2.35
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Braga",
+      "odd": 1.78
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Rio Ave FC",
+      "odd": 5.5
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Winamax (DE)",
+      "aposta": "Draw",
+      "odd": 2.5
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Tipico",
+      "aposta": "Braga",
+      "odd": 1.8
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Tipico",
+      "aposta": "Rio Ave FC",
+      "odd": 6.5
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Tipico",
+      "aposta": "Draw",
+      "odd": 2.7
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Betfair",
+      "aposta": "Braga",
+      "odd": 1.95
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Betfair",
+      "aposta": "Rio Ave FC",
+      "odd": 6.4
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Betfair",
+      "aposta": "Draw",
+      "odd": 3.0
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Matchbook",
+      "aposta": "Braga",
+      "odd": 1.93
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Matchbook",
+      "aposta": "Rio Ave FC",
+      "odd": 6.4
+    },
+    {
+      "event_id": "3642cddab8c2e0da43a419cdd01d1db0",
+      "data_hora": "2026-11-08T21:30:07.341508+00:00",
+      "jogo": "Rio Ave FC vs Braga",
+      "bookmaker": "Matchbook",
+      "aposta": "Draw",
+      "odd": 2.92
     }
   ]
 }
